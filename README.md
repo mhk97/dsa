@@ -33,10 +33,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 ## Stack
 |  |
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/mhk97/dsa/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/mhk97/dsa/tree/master/0051-n-queens) |
 | [0090-subsets-ii](https://github.com/mhk97/dsa/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
 |  |
 | ------- |
