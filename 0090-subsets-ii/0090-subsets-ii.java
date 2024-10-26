@@ -11,10 +11,6 @@ class Solution {
     public void solve(int[] nums, int index, List<Integer> list) {
         res.add(new ArrayList(list));
 
-        if (index >= nums.length) {
-            return;
-        }
-
         for (int i = index; i < nums.length; i++) {
             if (i > index && nums[i] == nums[i - 1]) continue;
 
