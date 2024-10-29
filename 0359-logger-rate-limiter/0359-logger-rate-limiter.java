@@ -1,23 +1,23 @@
 class Logger {
-    Map<String, Integer> timestampToMessageMap;
+    Map<String, Integer> map;
 
     public Logger() {
-        timestampToMessageMap = new HashMap();
+        map = new HashMap();
     }
-    
+
     public boolean shouldPrintMessage(int timestamp, String message) {
-        if(timestampToMessageMap.containsKey(message)){
-            int ts = timestampToMessageMap.get(message)+10;
-            if(ts > timestamp) return false;
-            timestampToMessageMap.put(message, timestamp);
-            return true;
-        }else {
-            timestampToMessageMap.put(message, timestamp);
+        if (map.containsKey(message)) {
+            int val = map.get(message);
+            if ((val + 10) <= timestamp) {
+                map.put(message, timestamp);
+                return true;
+            } else return false;
+        } else {
+            map.put(message, timestamp);
             return true;
         }
     }
 }
-
 /**
  * Your Logger object will be instantiated and called as such:
  * Logger obj = new Logger();
