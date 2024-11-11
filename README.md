@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/mhk97/dsa/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/mhk97/dsa/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/mhk97/dsa/tree/master/0051-n-queens) |
+| [0055-jump-game](https://github.com/mhk97/dsa/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/mhk97/dsa/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/mhk97/dsa/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mhk97/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/mhk97/dsa/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/mhk97/dsa/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
@@ -62,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/mhk97/dsa/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mhk97/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
