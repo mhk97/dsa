@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/mhk97/dsa/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/mhk97/dsa/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/mhk97/dsa/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/mhk97/dsa/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/mhk97/dsa/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/mhk97/dsa/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/mhk97/dsa/tree/master/0090-subsets-ii) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/mhk97/dsa/tree/master/0037-sudoku-solver) |
+| [0054-spiral-matrix](https://github.com/mhk97/dsa/tree/master/0054-spiral-matrix) |
 | [0200-number-of-islands](https://github.com/mhk97/dsa/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
 ## Memoization
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/mhk97/dsa/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/mhk97/dsa/tree/master/0067-add-binary) |
 ## Doubly-Linked List
 |  |
