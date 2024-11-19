@@ -1,8 +1,8 @@
 class Node {
     int key;
     int value;
-    Node next;
     Node prev;
+    Node next;
 
     public Node(int key, int value) {
         this.key = key;
@@ -12,58 +12,56 @@ class Node {
 
 class LRUCache {
     Node head, tail;
-    Map<Integer, Node> map;
-    int capacity = 0;
+    HashMap<Integer, Node> map;
+    int capacity;
 
     public LRUCache(int capacity) {
-        head = new Node(-1, -1);
-        tail = new Node(-1, -1);
+        this.capacity = capacity;
+        this.head = new Node(-1, -1);
+        this.tail = new Node(-1, -1);
         head.next = tail;
         tail.prev = head;
+
         map = new HashMap();
-        this.capacity = capacity;
     }
 
-    private void add(Node node) {
-        Node prevTemp = tail.prev;
-        prevTemp.next = node;
+    public void addAtBack(Node node) {
+        Node prev = tail.prev;
+        prev.next = node;
         tail.prev = node;
         node.next = tail;
-        node.prev = prevTemp;
+        node.prev = prev;
     }
 
-    private void remove(Node node) {
-        Node prev = node.prev;
-        Node next = node.next;
-        prev.next = next;
-        next.prev = prev;
+    public void removeFromFront(Node node) {
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
     }
 
     public int get(int key) {
         if (!map.containsKey(key)) return -1;
 
-        // remove and add at back
         Node temp = map.get(key);
-        remove(temp);
-        add(temp);
+        removeFromFront(temp);
+        addAtBack(temp);
 
         return temp.value;
     }
 
     public void put(int key, int value) {
-        //removed from list
         if (map.containsKey(key)) {
-            remove(map.get(key));
+            Node temp = map.get(key);
+            removeFromFront(temp);
         }
 
         Node node = new Node(key, value);
+        addAtBack(node);
         map.put(key, node);
-        add(node);
 
         if (map.size() > capacity) {
             Node temp = head.next;
-            remove(temp);
             map.remove(temp.key);
+            removeFromFront(temp);
         }
     }
 }
