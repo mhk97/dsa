@@ -1,37 +1,31 @@
 class Solution {
 
     public boolean canFinish(int V, int[][] edges) {
-        //creating a graph adj
+        int indegree[] = new int[V];
+
+        //create a map
         Map<Integer, List<Integer>> map = new HashMap();
         for (int[] edge : edges) {
-            int v = edge[0], u = edge[1];
-            map.computeIfAbsent(u, key -> new ArrayList()).add(v);
+            int u = edge[1];
+            int v = edge[0];
+            indegree[v]++;
+            map.computeIfAbsent(u, k -> new ArrayList()).add(v);
         }
 
-        boolean visited[] = new boolean[V];
-        boolean pathVisited[] = new boolean[V];
+        Queue<Integer> q = new LinkedList();
+        for (int i = 0; i < V; i++) if (indegree[i] == 0) q.add(i);
 
-        for (int i = 0; i < V; i++) {
-            if (visited[i] == false) {
-                if (dfs(map, i, visited, pathVisited) == true) return false; //found cycle
+        List<Integer> res = new ArrayList();
+
+        while (!q.isEmpty()) {
+            int u = q.poll();
+            res.add(u);
+            for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
+                indegree[v]--;
+                if (indegree[v] == 0) q.add(v);
             }
         }
 
-        return true; //no cycle
-    }
-
-    public boolean dfs(Map<Integer, List<Integer>> map, int u, boolean visited[], boolean pathVisited[]) {
-        visited[u] = true;
-        pathVisited[u] = true;
-
-        for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
-            if (visited[v] == false) {
-                if (dfs(map, v, visited, pathVisited) == true) return true;
-            } else if (pathVisited[v] == true) return true;
-        }
-
-        pathVisited[u] = false;
-
-        return false; //no cycle
+        return res.size() == V;
     }
 }
