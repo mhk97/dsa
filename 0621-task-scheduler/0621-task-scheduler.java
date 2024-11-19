@@ -1,8 +1,6 @@
 class Solution {
 
     public int leastInterval(char[] tasks, int n) {
-        //try to use task with most occurance
-
         int[] arr = new int[26];
         for (char c : tasks) arr[c - 'A']++;
 
@@ -12,18 +10,16 @@ class Solution {
         int res = 0;
 
         while (!pq.isEmpty()) {
-            int cycle = n+1;
-        
+            int cycle = n + 1, count = 0;
+
             List<Integer> list = new ArrayList();
-            int count = 0;
             while (!pq.isEmpty() && cycle-- > 0) {
-                int currVal = pq.poll();
-                if (currVal > 1) list.add(currVal-1);
+                int i = pq.poll();
+                if (i - 1 > 0) list.add(i - 1);
                 count++;
             }
-
             for (int i : list) pq.offer(i);
-            res += (pq.isEmpty()) ? count : n+1;
+            if (pq.isEmpty()) res += count; else res += n + 1;
         }
 
         return res;
