@@ -1,25 +1,25 @@
 class Solution {
 
-    public int[] findOrder(int n, int[][] p) {
-        Map<Integer, List<Integer>> adj = new HashMap();
-        for (int i[] : p) {
-            adj.computeIfAbsent(i[1], k -> new ArrayList()).add(i[0]);
+    public int[] findOrder(int V, int[][] edges) {
+        //create a map
+        Map<Integer, List<Integer>> map = new HashMap();
+        for (int[] edge : edges) {
+            int u = edge[1], v = edge[0];
+            map.computeIfAbsent(u, k -> new ArrayList()).add(v);
         }
 
-        boolean[] visited = new boolean[n];
-        boolean[] pathVisited = new boolean[n];
+        boolean v[] = new boolean[V];
+        boolean pv[] = new boolean[V];
         Stack<Integer> stack = new Stack();
 
-        for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
-                if (dfs(i, visited, pathVisited, stack, adj)) return new int[] { };
+        for (int i = 0; i < V; i++) {
+            if (v[i] == false) {
+                if (dfs(i, map, v, pv, stack) == true) return new int[] {};
             }
         }
 
-        int[] res = new int[n];
+        int res[] = new int[V];
         int i = 0;
-
-        // System.out.println(stack);
         while (!stack.isEmpty()) {
             res[i++] = stack.pop();
         }
@@ -27,17 +27,19 @@ class Solution {
         return res;
     }
 
-    private boolean dfs(int u, boolean[] visited, boolean[] pathVisited, Stack<Integer> stack, Map<Integer, List<Integer>> adj) {
+    public boolean dfs(int u, Map<Integer, List<Integer>> map, boolean visited[], boolean pv[], Stack<Integer> stack) {
         visited[u] = true;
-        pathVisited[u] = true;
+        pv[u] = true;
 
-        for (int v : adj.getOrDefault(u, new ArrayList<Integer>())) {
-            if (!visited[v]) {
-                if (dfs(v, visited, pathVisited, stack, adj)) return true;
-            } else if (pathVisited[v]) return true;
+        for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
+            if (visited[v] == false) {
+                if (dfs(v, map, visited, pv, stack) == true) return true;
+            } else if (pv[v] == true) {
+                return true;
+            }
         }
 
-        pathVisited[u] = false;
+        pv[u] = false;
         stack.push(u);
 
         return false;
