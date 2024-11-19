@@ -1,15 +1,14 @@
 class Solution {
-    int dirs[][] = new int[][] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
+    int[][] dirs = new int[][] { { 1, 0 }, { -1, 0 }, { 0, -1 }, { 0, 1 } };
 
     public int numIslands(char[][] grid) {
-        int r = grid.length, c = grid[0].length, res = 0;
+        int res = 0, m = grid.length, n = grid[0].length;
 
-        int visited[][] = new int[r][c];
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                if (grid[i][j] == '1' && visited[i][j] != 1) {
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == '1') {
                     res++;
-                    markIsland(grid, i, j, visited);
+                    dfs(i, j, grid);
                 }
             }
         }
@@ -17,15 +16,17 @@ class Solution {
         return res;
     }
 
-    private void markIsland(char[][] grid, int r, int c, int[][] visited) {
-        if (r < 0 || c < 0 || r >= grid.length || c >= grid[0].length || grid[r][c] == '0' || visited[r][c] == 1) return;
+    public void dfs(int r, int c, char[][] grid) {
+        int m = grid.length, n = grid[0].length;
 
-        visited[r][c] = 1;
+        if (r < 0 || r >= m || c < 0 || c >= n || grid[r][c] == '0') return;
 
-        for (int[] d : dirs) {
+        grid[r][c] = '0'; //visited
+
+        for (int d[] : dirs) {
             int nr = d[0] + r;
             int nc = d[1] + c;
-            markIsland(grid, nr, nc, visited);
+            dfs(nr, nc, grid);
         }
     }
 }
