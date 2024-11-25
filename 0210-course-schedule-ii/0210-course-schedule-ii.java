@@ -1,7 +1,7 @@
 class Solution {
 
     public int[] findOrder(int V, int[][] edges) {
-        //create a map n indegree
+        //create adj
         int[] indegree = new int[V];
         Map<Integer, List<Integer>> map = new HashMap();
         for (int[] edge : edges) {
@@ -10,60 +10,58 @@ class Solution {
             map.computeIfAbsent(u, k -> new ArrayList()).add(v);
         }
 
-        // boolean v[] = new boolean[V];
+        //dfs based cycle find
+        // boolean visited[] = new boolean[V];
         // boolean pv[] = new boolean[V];
-        // Stack<Integer> stack = new Stack();
 
-        // for (int i = 0; i < V; i++) {
-        //     if (v[i] == false) {
-        //         if (dfs(i, map, v, pv, stack) == true) return new int[] {};
+        // for(int i=0; i<V; i++){
+        //     if(visited[i] == false){
+        //         if(dfs(i, visited, pv, map) == true) return false;
         //     }
         // }
 
-        // int res[] = new int[V];
-        // int i = 0;
-        // while (!stack.isEmpty()) {
-        //     res[i++] = stack.pop();
-        // }
+        //return true;
 
-        // return res;
-
+        //Q based topo using kahnes bfs
         Queue<Integer> q = new LinkedList();
-        for(int i=0; i<V; i++) if(indegree[i] == 0) q.add(i);
+        for (int i = 0; i < V; i++) if (indegree[i] == 0) {
+            q.add(i);
+        }
 
-        int[] res = new int[V];
-        int i=0;
-
-        while(!q.isEmpty()){
+        List<Integer> list = new ArrayList();
+        while (!q.isEmpty()) {
             int u = q.poll();
-            res[i++] = u;
-
-            for(int v: map.getOrDefault(u, new ArrayList<Integer>())){
+            list.add(u);
+            for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
                 indegree[v]--;
-                if(indegree[v] == 0) q.add(v);
+                if (indegree[v] == 0) {
+                    q.add(v);
+                }
             }
         }
 
-        return (i==V) ? res : new int[]{};
+        if(V != list.size()) return new int[]{};
 
-        
+        int res[] = new int[V];
+        int ind = 0;
+        for(int i: list){
+            res[ind++] = i;
+        }
+
+        return res;
     }
 
-    public boolean dfs(int u, Map<Integer, List<Integer>> map, boolean visited[], boolean pv[], Stack<Integer> stack) {
+    private boolean dfs(int u, boolean[] visited, boolean[] pv, Map<Integer, List<Integer>> map) {
         visited[u] = true;
         pv[u] = true;
 
         for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
             if (visited[v] == false) {
-                if (dfs(v, map, visited, pv, stack) == true) return true;
-            } else if (pv[v] == true) {
-                return true;
-            }
+                if (dfs(v, visited, pv, map) == true) return true;
+            } else if (pv[v] == true) return true;
         }
 
         pv[u] = false;
-        stack.push(u);
-
         return false;
     }
 }
