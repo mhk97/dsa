@@ -1,30 +1,20 @@
 class Solution {
 
     public int leastInterval(char[] tasks, int n) {
-        int[] arr = new int[26];
+        int arr[] = new int[26];
         for (char c : tasks) arr[c - 'A']++;
 
-        PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
-        for (int i : arr) if (i > 0) pq.offer(i);
+        Arrays.sort(arr);
 
-        System.out.println(pq);
+        int gap = arr[arr.length - 1] - 1;
+        int idle = gap * (n), i = arr.length - 2;
 
-        int res = 0;
-
-        while (!pq.isEmpty()) {
-            int cycle = n + 1, cnt = 0;
-            List<Integer> list = new ArrayList();
-
-            while (!pq.isEmpty() && cycle-- > 0) {
-                int k = pq.poll();
-                cnt++;
-                if (k - 1 > 0) list.add(k-1);
-            }
-
-            for (int i : list) pq.offer(i);
-            res += (pq.isEmpty()) ? cnt : n + 1;
+        while (i>=0 && arr[i] > 0) {
+            int min = Math.min(gap, arr[i]);
+            idle -= min;
+            i--;
         }
 
-        return res;
+        return (idle > 0) ? tasks.length + idle : tasks.length;
     }
 }
