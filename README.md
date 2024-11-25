@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/mhk97/dsa/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/mhk97/dsa/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/mhk97/dsa/tree/master/0127-word-ladder) |
+| [0138-copy-list-with-random-pointer](https://github.com/mhk97/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/mhk97/dsa/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/mhk97/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/mhk97/dsa/tree/master/0242-valid-anagram) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/mhk97/dsa/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/mhk97/dsa/tree/master/0021-merge-two-sorted-lists) |
+| [0138-copy-list-with-random-pointer](https://github.com/mhk97/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/mhk97/dsa/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/mhk97/dsa/tree/master/0206-reverse-linked-list) |
 ## Recursion
