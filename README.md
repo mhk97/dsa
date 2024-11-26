@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mhk97/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/mhk97/dsa/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
+| [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
 | [0890-lemonade-change](https://github.com/mhk97/dsa/tree/master/0890-lemonade-change) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
 ## Two Pointers
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/mhk97/dsa/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
+| [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
 ## Backtracking
 |  |
 | ------- |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/mhk97/dsa/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/mhk97/dsa/tree/master/0067-add-binary) |
+| [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
 ## Doubly-Linked List
 |  |
 | ------- |
