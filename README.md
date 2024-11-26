@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/mhk97/dsa/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/mhk97/dsa/tree/master/0009-palindrome-number) |
+| [0062-unique-paths](https://github.com/mhk97/dsa/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/mhk97/dsa/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
 ## Array
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/mhk97/dsa/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/mhk97/dsa/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/mhk97/dsa/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mhk97/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
@@ -268,4 +270,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/mhk97/dsa/tree/master/0253-meeting-rooms-ii) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/mhk97/dsa/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
