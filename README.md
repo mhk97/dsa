@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/mhk97/dsa/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/mhk97/dsa/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
+| [1585-the-kth-factor-of-n](https://github.com/mhk97/dsa/tree/master/1585-the-kth-factor-of-n) |
 ## Array
 |  |
 | ------- |
@@ -274,4 +275,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/mhk97/dsa/tree/master/0062-unique-paths) |
+## Number Theory
+|  |
+| ------- |
+| [1585-the-kth-factor-of-n](https://github.com/mhk97/dsa/tree/master/1585-the-kth-factor-of-n) |
 <!---LeetCode Topics End-->
