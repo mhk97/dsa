@@ -1,76 +1,32 @@
 class Solution {
 
-    public int[] findOrder(int V, int[][] edges) {
-        //create adj
-        int[] indegree = new int[V];
+    public int[] findOrder(int n, int[][] p) {
         Map<Integer, List<Integer>> map = new HashMap();
-        for (int[] edge : edges) {
-            int u = edge[1], v = edge[0];
+        int[] indegree = new int[n];
+        for (int i[] : p) {
+            int u = i[1], v = i[0];
             indegree[v]++;
             map.computeIfAbsent(u, k -> new ArrayList()).add(v);
         }
 
-        // dfs based cycle find
-        boolean visited[] = new boolean[V];
-        boolean pv[] = new boolean[V];
-        Stack<Integer> stack = new Stack();
+        Queue<Integer> q = new LinkedList();
+        List<Integer> res = new ArrayList();
+        for (int i = 0; i < n; i++) if (indegree[i] == 0) q.add(i);
 
-        for(int i=0; i<V; i++){
-            if(visited[i] == false){
-                if(dfs(i, visited, pv, map, stack) == true) return new int[]{};
+        while(!q.isEmpty()){
+            int u = q.poll();
+            res.add(u);
+            for(int v: map.getOrDefault(u, new ArrayList<Integer>())){
+                indegree[v]--;
+                if(indegree[v] == 0) q.add(v);
             }
         }
 
-        int res[] = new int[V];
-        int ind = 0;
+        int op[] = new int[n];
+        if(res.size() != n) return new int[]{};
+        for(int i=0; i< res.size(); i++) op[i] = res.get(i);
 
-        while(!stack.isEmpty()){
-            res[ind++] = stack.pop();
-        }
+        return op;
 
-        return res;
-
-        //Q based topo using kahnes bfs
-        // Queue<Integer> q = new LinkedList();
-        // for (int i = 0; i < V; i++) if (indegree[i] == 0) {
-        //     q.add(i);
-        // }
-
-        // List<Integer> list = new ArrayList();
-        // while (!q.isEmpty()) {
-        //     int u = q.poll();
-        //     list.add(u);
-        //     for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
-        //         indegree[v]--;
-        //         if (indegree[v] == 0) {
-        //             q.add(v);
-        //         }
-        //     }
-        // }
-
-        // if(V != list.size()) return new int[]{};
-
-        // int res[] = new int[V];
-        // int ind = 0;
-        // for(int i: list){
-        //     res[ind++] = i;
-        // }
-
-        // return res;
-    }
-
-    private boolean dfs(int u, boolean[] visited, boolean[] pv, Map<Integer, List<Integer>> map, Stack<Integer> stack) {
-        visited[u] = true;
-        pv[u] = true;
-
-        for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
-            if (visited[v] == false) {
-                if (dfs(v, visited, pv, map, stack) == true) return true;
-            } else if (pv[v] == true) return true;
-        }
-
-        pv[u] = false;
-        stack.push(u);
-        return false;
     }
 }
