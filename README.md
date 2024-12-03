@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/mhk97/dsa/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/mhk97/dsa/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/mhk97/dsa/tree/master/0056-merge-intervals) |
+| [0074-search-a-2d-matrix](https://github.com/mhk97/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/mhk97/dsa/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/mhk97/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/mhk97/dsa/tree/master/0090-subsets-ii) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/mhk97/dsa/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/mhk97/dsa/tree/master/0054-spiral-matrix) |
+| [0074-search-a-2d-matrix](https://github.com/mhk97/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/mhk97/dsa/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/mhk97/dsa/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/mhk97/dsa/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/mhk97/dsa/tree/master/0074-search-a-2d-matrix) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
 ## Simulation
 |  |
