@@ -1,55 +1,32 @@
 class Solution {
 
-    public boolean canFinish(int V, int[][] edges) {
-        //create adj
-        int[] indegree = new int[V];
+    public boolean canFinish(int n, int[][] p) {
         Map<Integer, List<Integer>> map = new HashMap();
-        for (int[] edge : edges) {
-            int u = edge[1], v = edge[0];
-            indegree[v]++;
+
+        for (int[] i : p) {
+            int u = i[1], v = i[0];
             map.computeIfAbsent(u, k -> new ArrayList()).add(v);
         }
 
-        //dfs based cycle find
-        // boolean visited[] = new boolean[V];
-        // boolean pv[] = new boolean[V];
+        boolean[] visited = new boolean[n];
+        boolean[] pathVis = new boolean[n];
 
-        // for(int i=0; i<V; i++){
-        //     if(visited[i] == false){
-        //         if(dfs(i, visited, pv, map) == true) return false;
-        //     }
-        // }
-
-        //return true;
-
-        //Q based topo using kahnes bfs
-        Queue<Integer> q = new LinkedList();
-        for (int i = 0; i < V; i++) if (indegree[i] == 0) {
-            q.add(i);
-        }
-        
-        List<Integer> list = new ArrayList();
-        while(!q.isEmpty()){
-            int u = q.poll();
-            list.add(u);
-            for(int v: map.getOrDefault(u, new ArrayList<Integer>())){
-                indegree[v]--;
-                if(indegree[v] == 0){
-                    q.add(v);
-                }
+        for (int u = 0; u < n; u++) {
+            if (visited[u] == false) {
+                if (isCycle(visited, pathVis, map, u) == true) return false;
             }
         }
 
-        return list.size() == V;
+        return true;
     }
 
-    private boolean dfs(int u, boolean[] visited, boolean[] pv, Map<Integer, List<Integer>> map) {
+    public boolean isCycle(boolean visited[], boolean pv[], Map<Integer, List<Integer>> map, int u) {
         visited[u] = true;
         pv[u] = true;
 
         for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
             if (visited[v] == false) {
-                if (dfs(v, visited, pv, map) == true) return true;
+                if (isCycle(visited, pv, map, v) == true) return true;
             } else if (pv[v] == true) return true;
         }
 
