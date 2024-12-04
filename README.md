@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/mhk97/dsa/tree/master/0242-valid-anagram) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
+| [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
+| [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
 ## Matrix
 |  |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/mhk97/dsa/tree/master/0146-lru-cache) |
 | [0359-logger-rate-limiter](https://github.com/mhk97/dsa/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
+| [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 ## Data Stream
 |  |
 | ------- |
@@ -221,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/mhk97/dsa/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/mhk97/dsa/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/mhk97/dsa/tree/master/0074-search-a-2d-matrix) |
+| [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
 ## Simulation
 |  |
