@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/mhk97/dsa/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/mhk97/dsa/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/mhk97/dsa/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/mhk97/dsa/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/mhk97/dsa/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/mhk97/dsa/tree/master/0039-combination-sum) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/mhk97/dsa/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/mhk97/dsa/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/mhk97/dsa/tree/master/0074-search-a-2d-matrix) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
