@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/mhk97/dsa/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
+| [0155-min-stack](https://github.com/mhk97/dsa/tree/master/0155-min-stack) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
 ## Backtracking
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/mhk97/dsa/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/mhk97/dsa/tree/master/0155-min-stack) |
 | [0359-logger-rate-limiter](https://github.com/mhk97/dsa/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
