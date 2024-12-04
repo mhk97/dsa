@@ -1,13 +1,19 @@
 class Solution {
 
     public boolean canJump(int[] nums) {
-        int max = nums[0];
+        Boolean cache[] = new Boolean[nums.length];
+        return solve(nums, 0, cache);
+    }
 
-        for (int i = 1; i < nums.length; i++) {
-            if (i > max) return false;
-            max = Math.max(max, i + nums[i]);
+    public boolean solve(int[] nums, int i, Boolean[] cache) {
+        if (i >= nums.length-1) return true;
+
+        if(cache[i]!=null) return cache[i];
+        
+        for (int k = 1; k <= nums[i]; k++) {
+            if (solve(nums, i + k, cache) == true)  return cache[i] = true;
         }
 
-        return true;
+        return cache[i] = false;
     }
 }
