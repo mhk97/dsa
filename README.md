@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0455-assign-cookies](https://github.com/mhk97/dsa/tree/master/0455-assign-cookies) |
+| [0560-subarray-sum-equals-k](https://github.com/mhk97/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
 | [0890-lemonade-change](https://github.com/mhk97/dsa/tree/master/0890-lemonade-change) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mhk97/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0359-logger-rate-limiter](https://github.com/mhk97/dsa/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
+| [0560-subarray-sum-equals-k](https://github.com/mhk97/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
@@ -345,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/mhk97/dsa/tree/master/0253-meeting-rooms-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/mhk97/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3639-zero-array-transformation-i](https://github.com/mhk97/dsa/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
