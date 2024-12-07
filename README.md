@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/mhk97/dsa/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3639-zero-array-transformation-i](https://github.com/mhk97/dsa/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
+| [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/mhk97/dsa/tree/master/0890-lemonade-change) |
+| [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## Sorting
 |  |
 | ------- |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## String
 |  |
 | ------- |
@@ -261,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -334,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3639-zero-array-transformation-i](https://github.com/mhk97/dsa/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
+| [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## Combinatorics
 |  |
 | ------- |
