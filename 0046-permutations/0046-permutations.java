@@ -2,26 +2,26 @@ class Solution {
     List<List<Integer>> res = new ArrayList();
 
     public List<List<Integer>> permute(int[] nums) {
-        solve(nums, new ArrayList(), 0, new HashSet());
+        solve(new ArrayList(), nums, new HashSet());
         return res;
     }
 
-    public void solve(int nums[], List<Integer> temp, int index, Set<Integer> set) {
+    public void solve(List<Integer> temp, int nums[], HashSet<Integer> seen) {
         if (temp.size() == nums.length) {
             res.add(new ArrayList(temp));
             return;
         }
 
-        for (int i = 0; i < nums.length; i++) {
-            if (set.contains(nums[i])) continue;
+        for (int k = 0; k < nums.length; k++) {
+            if (seen.contains(nums[k])) continue;
 
-            temp.add(nums[i]);
-            set.add(nums[i]);
+            temp.add(nums[k]);
+            seen.add(nums[k]);
 
-            solve(nums, temp, i + 1, set);
+            solve(temp, nums, seen);
 
             temp.remove(temp.size() - 1);
-            set.remove(nums[i]);
+            seen.remove(nums[k]);
         }
     }
 }
