@@ -11,22 +11,16 @@ class Solution {
             res.add(sb.toString());
         }
 
-        if (o == c && o > 0) {
+        if (o != 0) {
             sb.append('(');
             solve(sb, o - 1, c);
             sb.deleteCharAt(sb.length() - 1);
-        } else {
-            if (o > 0) {
-                sb.append('(');
-                solve(sb, o - 1, c);
-                sb.deleteCharAt(sb.length() - 1);
-            }
+        }
 
-            if (c > 0) {
-                sb.append(')');
-                solve(sb, o, c - 1);
-                sb.deleteCharAt(sb.length() - 1);
-            }
+        if (o < c) {
+            sb.append(')');
+            solve(sb, o, c - 1);
+            sb.deleteCharAt(sb.length() - 1);
         }
     }
 }
