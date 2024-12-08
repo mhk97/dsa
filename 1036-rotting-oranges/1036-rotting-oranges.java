@@ -1,41 +1,38 @@
 class Solution {
-    int[][] dirs = new int[][] { { 1, 0 }, { -1, 0 }, { 0, -1 }, { 0, 1 } };
+    int dirs[][] = new int[][] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
     public int orangesRotting(int[][] grid) {
-        Queue<int[]> q = new LinkedList();
+        int r = grid.length, c = grid[0].length, fresh = 0, res = -1;
 
-        int r = grid.length, c = grid[0].length, res = 0, fresh = 0;
+        Queue<int[]> q = new LinkedList();
 
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-                if (grid[i][j] == 1) fresh++;
-                if (grid[i][j] == 2) q.add(new int[] { i, j });
+                if (grid[i][j] == 2) {
+                    q.add(new int[] { i, j });
+                } else if (grid[i][j] == 1) fresh++;
             }
         }
 
-        if(fresh == 0) return 0; 
-        if(q.isEmpty()) return -1;
+        if (fresh == 0) return 0;
+        if (q.isEmpty()) return -1;
 
         while (!q.isEmpty()) {
             int size = q.size();
-
+            res++;
             for (int i = 0; i < size; i++) {
-                int[] curr = q.poll();
-                int cr = curr[0], cc = curr[1];
-
-                for (int[] d : dirs) {
-                    int nr = cr + d[0], nc = cc + d[1];
-                    if (nr >= 0 && nr < r && nc >= 0 && nc < c && grid[nr][nc] == 1) {
-                        fresh--;
-                        grid[nr][nc] = 2;
+                int[] temp = q.poll();
+                for (int d[] : dirs) {
+                    int nr = temp[0] + d[0], nc = temp[1] + d[1];
+                    if (nr < r && nr >= 0 && nc < c && nc >= 0 && grid[nr][nc] == 1) {
                         q.add(new int[] { nr, nc });
+                        grid[nr][nc] = 2;
+                        fresh--;
                     }
                 }
             }
-
-            res++;
         }
 
-        return fresh > 0 ? -1 : res-1;
+        return (fresh > 0) ? -1 : res;
     }
 }
