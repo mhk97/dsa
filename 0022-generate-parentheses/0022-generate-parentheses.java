@@ -2,32 +2,29 @@ class Solution {
     List<String> res = new ArrayList();
 
     public List<String> generateParenthesis(int n) {
-        solve(n, n, new StringBuilder());
+        solve(new StringBuilder(), n, n);
         return res;
     }
 
-    public void solve(int o, int c, StringBuilder sb) {
+    public void solve(StringBuilder sb, int o, int c) {
         if (o == 0 && c == 0) {
             res.add(sb.toString());
-            return;
         }
 
-        if (o < 0 || c < 0) return;
-
-        if (o == c) {
+        if (o == c && o > 0) {
             sb.append('(');
-            solve(o - 1, c, sb);
+            solve(sb, o - 1, c);
             sb.deleteCharAt(sb.length() - 1);
         } else {
-            if (o - 1 >= 0) {
+            if (o > 0) {
                 sb.append('(');
-                solve(o - 1, c, sb);
+                solve(sb, o - 1, c);
                 sb.deleteCharAt(sb.length() - 1);
             }
 
-            if (c - 1 >= 0) {
+            if (c > 0) {
                 sb.append(')');
-                solve(o, c - 1, sb);
+                solve(sb, o, c - 1);
                 sb.deleteCharAt(sb.length() - 1);
             }
         }
