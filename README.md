@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/mhk97/dsa/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
+| [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1585-the-kth-factor-of-n](https://github.com/mhk97/dsa/tree/master/1585-the-kth-factor-of-n) |
 ## Array
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0455-assign-cookies](https://github.com/mhk97/dsa/tree/master/0455-assign-cookies) |
+| [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 | [0560-subarray-sum-equals-k](https://github.com/mhk97/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/mhk97/dsa/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/mhk97/dsa/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/mhk97/dsa/tree/master/0322-coin-change) |
+| [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 ## Stack
 |  |
@@ -254,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/mhk97/dsa/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/mhk97/dsa/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/mhk97/dsa/tree/master/0206-reverse-linked-list) |
+| [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 ## Database
 |  |
 | ------- |
@@ -398,4 +402,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
