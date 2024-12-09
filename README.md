@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/mhk97/dsa/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/mhk97/dsa/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/mhk97/dsa/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/mhk97/dsa/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/mhk97/dsa/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/mhk97/dsa/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/mhk97/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0455-assign-cookies](https://github.com/mhk97/dsa/tree/master/0455-assign-cookies) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/mhk97/dsa/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/mhk97/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/mhk97/dsa/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/mhk97/dsa/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/mhk97/dsa/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/mhk97/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/mhk97/dsa/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/mhk97/dsa/tree/master/0347-top-k-frequent-elements) |
