@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/mhk97/dsa/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/mhk97/dsa/tree/master/0290-word-pattern) |
+| [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/mhk97/dsa/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
 | [0155-min-stack](https://github.com/mhk97/dsa/tree/master/0155-min-stack) |
+| [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
 ## Backtracking
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/mhk97/dsa/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/mhk97/dsa/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/mhk97/dsa/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 ## Database
 |  |
