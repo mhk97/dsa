@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mhk97/dsa/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/mhk97/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/mhk97/dsa/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mhk97/dsa/tree/master/0417-pacific-atlantic-water-flow) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
+| [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 ## Memoization
 |  |
 | ------- |
@@ -312,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/mhk97/dsa/tree/master/0300-longest-increasing-subsequence) |
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
+| [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/mhk97/dsa/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -341,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/mhk97/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
 | [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
@@ -356,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/mhk97/dsa/tree/master/0417-pacific-atlantic-water-flow) |
 | [0547-number-of-provinces](https://github.com/mhk97/dsa/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/mhk97/dsa/tree/master/0801-is-graph-bipartite) |
+| [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -372,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/mhk97/dsa/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/mhk97/dsa/tree/master/0801-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
+| [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
 |  |
 | ------- |
@@ -382,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/mhk97/dsa/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/mhk97/dsa/tree/master/0801-is-graph-bipartite) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mhk97/dsa/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 ## Bucket Sort
 |  |
 | ------- |
