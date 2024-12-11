@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/mhk97/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
 | [2176-parallel-courses-iii](https://github.com/mhk97/dsa/tree/master/2176-parallel-courses-iii) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/mhk97/dsa/tree/master/0890-lemonade-change) |
 | [1762-furthest-building-you-can-reach](https://github.com/mhk97/dsa/tree/master/1762-furthest-building-you-can-reach) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## Sorting
 |  |
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mhk97/dsa/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
 | [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## String
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 | [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/mhk97/dsa/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
@@ -358,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/mhk97/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/mhk97/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/mhk97/dsa/tree/master/0424-longest-repeating-character-replacement) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/mhk97/dsa/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 ## Heap (Priority Queue)
 |  |
@@ -471,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/mhk97/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/mhk97/dsa/tree/master/0560-subarray-sum-equals-k) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3639-zero-array-transformation-i](https://github.com/mhk97/dsa/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
