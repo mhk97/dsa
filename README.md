@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/mhk97/dsa/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mhk97/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mhk97/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/mhk97/dsa/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/mhk97/dsa/tree/master/0198-house-robber) |
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/mhk97/dsa/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mhk97/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/mhk97/dsa/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/mhk97/dsa/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/mhk97/dsa/tree/master/0207-course-schedule) |
@@ -437,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/mhk97/dsa/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/mhk97/dsa/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/mhk97/dsa/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mhk97/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mhk97/dsa/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mhk97/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 ## Binary Tree
@@ -445,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/mhk97/dsa/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/mhk97/dsa/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/mhk97/dsa/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mhk97/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mhk97/dsa/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mhk97/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 ## Monotonic Stack
