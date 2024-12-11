@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/mhk97/dsa/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/mhk97/dsa/tree/master/0151-reverse-words-in-a-string) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mhk97/dsa/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/mhk97/dsa/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/mhk97/dsa/tree/master/0290-word-pattern) |
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/mhk97/dsa/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/mhk97/dsa/tree/master/0139-word-break) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mhk97/dsa/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/mhk97/dsa/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/mhk97/dsa/tree/master/0155-min-stack) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mhk97/dsa/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0359-logger-rate-limiter](https://github.com/mhk97/dsa/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/mhk97/dsa/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/mhk97/dsa/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mhk97/dsa/tree/master/0210-course-schedule-ii) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/mhk97/dsa/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/mhk97/dsa/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/mhk97/dsa/tree/master/0261-graph-valid-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/mhk97/dsa/tree/master/0417-pacific-atlantic-water-flow) |
