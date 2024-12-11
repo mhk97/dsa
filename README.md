@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/mhk97/dsa/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/mhk97/dsa/tree/master/0075-sort-colors) |
+| [0151-reverse-words-in-a-string](https://github.com/mhk97/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/mhk97/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/mhk97/dsa/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/mhk97/dsa/tree/master/0253-meeting-rooms-ii) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/mhk97/dsa/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/mhk97/dsa/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/mhk97/dsa/tree/master/0139-word-break) |
+| [0151-reverse-words-in-a-string](https://github.com/mhk97/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/mhk97/dsa/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/mhk97/dsa/tree/master/0290-word-pattern) |
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
