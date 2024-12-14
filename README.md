@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/mhk97/dsa/tree/master/0200-number-of-islands) |
 | [0219-contains-duplicate-ii](https://github.com/mhk97/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0253-meeting-rooms-ii](https://github.com/mhk97/dsa/tree/master/0253-meeting-rooms-ii) |
+| [0283-move-zeroes](https://github.com/mhk97/dsa/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/mhk97/dsa/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/mhk97/dsa/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/mhk97/dsa/tree/master/0347-top-k-frequent-elements) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/mhk97/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/mhk97/dsa/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/mhk97/dsa/tree/master/0253-meeting-rooms-ii) |
+| [0283-move-zeroes](https://github.com/mhk97/dsa/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/mhk97/dsa/tree/master/0455-assign-cookies) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/mhk97/dsa/tree/master/2414-move-pieces-to-obtain-a-string) |
 ## Greedy
