@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/mhk97/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/mhk97/dsa/tree/master/0202-happy-number) |
+| [0231-power-of-two](https://github.com/mhk97/dsa/tree/master/0231-power-of-two) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/mhk97/dsa/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/mhk97/dsa/tree/master/0137-single-number-ii) |
 | [0190-reverse-bits](https://github.com/mhk97/dsa/tree/master/0190-reverse-bits) |
+| [0231-power-of-two](https://github.com/mhk97/dsa/tree/master/0231-power-of-two) |
 ## Hash Table
 |  |
 | ------- |
@@ -357,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/mhk97/dsa/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/mhk97/dsa/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/mhk97/dsa/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/mhk97/dsa/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/mhk97/dsa/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
