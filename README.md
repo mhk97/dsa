@@ -377,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/mhk97/dsa/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/mhk97/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/mhk97/dsa/tree/master/0162-find-peak-element) |
+| [0278-first-bad-version](https://github.com/mhk97/dsa/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/mhk97/dsa/tree/master/0300-longest-increasing-subsequence) |
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
 | [0907-koko-eating-bananas](https://github.com/mhk97/dsa/tree/master/0907-koko-eating-bananas) |
@@ -581,4 +582,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/mhk97/dsa/tree/master/0098-validate-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/mhk97/dsa/tree/master/0450-delete-node-in-a-bst) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/mhk97/dsa/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
