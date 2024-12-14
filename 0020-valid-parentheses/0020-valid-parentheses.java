@@ -1,26 +1,17 @@
 class Solution {
 
     public boolean isValid(String s) {
+        Set<Character> set = new HashSet();
+        set.add('(');
+        set.add('[');
+        set.add('{');
+
         Stack<Character> stack = new Stack();
-        Set<Character> open = new HashSet();
-        open.add('(');
-        open.add('[');
-        open.add('{');
-
         for (char c : s.toCharArray()) {
-            if (open.contains(c))
-                stack.push(c);
-            else {
-                if (stack.isEmpty())
-                    return false;
-
-                char top = stack.pop();
-                if (c == ')' && top != '(')
-                    return false;
-                else if (c == ']' && top != '[')
-                    return false;
-                else if (c == '}' && top != '{')
-                    return false;
+            if (set.contains(c)) stack.push(c); else {
+                if (stack.isEmpty()) return false;
+                if ((c == ')' && stack.peek() != '(') || (c == ']' && stack.peek() != '[') || (c == '}' && stack.peek() != '{')) return false;
+                stack.pop();
             }
         }
 
