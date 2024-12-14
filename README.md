@@ -489,12 +489,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/mhk97/dsa/tree/master/0261-graph-valid-tree) |
 | [0547-number-of-provinces](https://github.com/mhk97/dsa/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/mhk97/dsa/tree/master/0801-is-graph-bipartite) |
+| [1101-parallel-courses](https://github.com/mhk97/dsa/tree/master/1101-parallel-courses) |
 | [2176-parallel-courses-iii](https://github.com/mhk97/dsa/tree/master/2176-parallel-courses-iii) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/mhk97/dsa/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/mhk97/dsa/tree/master/0210-course-schedule-ii) |
+| [1101-parallel-courses](https://github.com/mhk97/dsa/tree/master/1101-parallel-courses) |
 | [2176-parallel-courses-iii](https://github.com/mhk97/dsa/tree/master/2176-parallel-courses-iii) |
 ## Tree
 |  |
