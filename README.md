@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mhk97/dsa/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/mhk97/dsa/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/mhk97/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
