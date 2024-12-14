@@ -1,15 +1,17 @@
 class Solution {
 
     public boolean isPalindrome(int x) {
-        if (x == 0) return true;
-        if (x % 10 == 0 || x < 0) return false;
+        int og = x, num = 0;
 
-        int temp = x, nn = 0;
-        while (temp > 0) {
-            nn = nn * 10 + temp % 10;
-            temp /= 10;
+        if (x % 10 == 0 && x != 0) return false;
+        if (x < 0) return false;
+
+        while (x > num) {
+            int pop = x % 10;
+            x = x / 10;
+            num = num * 10 + pop;
         }
-        // System.out.println(nn);
-        return nn == x;
+
+        return x == num || x  == num / 10;
     }
 }
