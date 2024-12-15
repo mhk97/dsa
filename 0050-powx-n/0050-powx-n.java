@@ -10,8 +10,9 @@ class Solution {
     public double solve(double x, int n) {
         if (n == 0) return 1;
 
-        double val = solve(x * x, n / 2);
+        double val = solve(x, n / 2);
+        double res = val*val;
 
-        return (n % 2 == 0) ? val : val * x;
+        return (n % 2 == 0) ? res : res * x;
     }
 }
