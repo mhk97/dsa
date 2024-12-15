@@ -26,11 +26,11 @@ class Solution {
         while (l <= h) {
             int mid = l + (h - l) / 2;
             if (canMakeZero(nums, q, mid) == true) {
-                res = Math.min(res, mid);
+                res = mid;
                 h = mid - 1;
             } else l = mid + 1;
         }
 
-        return res == Integer.MAX_VALUE ? -1 : res;
+        return res == Integer.MAX_VALUE ? -1: res;
     }
 }
