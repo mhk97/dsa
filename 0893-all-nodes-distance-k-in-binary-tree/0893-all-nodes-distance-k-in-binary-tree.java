@@ -10,14 +10,19 @@
 class Solution {
 
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        Map<TreeNode, TreeNode> parent = new HashMap();
-        parent.put(root, null);
+        if (root == null || target == null) return new ArrayList();
 
-        fillMap(parent, root);
+        Map<TreeNode, TreeNode> map = new HashMap();
+        inorder(map, root);
+        map.put(root, null);
 
         Queue<TreeNode> q = new LinkedList();
+
         q.add(target);
+
+        List<Integer> res = new ArrayList();
         Set<TreeNode> set = new HashSet();
+
         while (!q.isEmpty() && k > 0) {
             int size = q.size();
 
@@ -26,24 +31,30 @@ class Solution {
                 set.add(curr);
                 if (curr.left != null && !set.contains(curr.left)) q.add(curr.left);
                 if (curr.right != null && !set.contains(curr.right)) q.add(curr.right);
-                if (parent.get(curr) != null && !set.contains(parent.get(curr))) q.add(parent.get(curr));
+                if (map.get(curr) != null && !set.contains(map.get(curr))) q.add(map.get(curr));
             }
 
             k--;
         }
 
-        List<Integer> res = new ArrayList();
         while (!q.isEmpty()) res.add(q.poll().val);
+
         return res;
     }
 
-    public void fillMap(Map<TreeNode, TreeNode> parent, TreeNode root) {
+    public void inorder(Map<TreeNode, TreeNode> map, TreeNode root) {
         if (root == null) return;
 
-        if (root.left != null) parent.put(root.left, root);
-        fillMap(parent, root.left);
+        if (root.left != null) {
+            map.put(root.left, root);
+        }
 
-        if (root.right != null) parent.put(root.right, root);
-        fillMap(parent, root.right);
+        inorder(map, root.left);
+
+        if (root.right != null) {
+            map.put(root.right, root);
+        }
+
+        inorder(map, root.right);
     }
 }
