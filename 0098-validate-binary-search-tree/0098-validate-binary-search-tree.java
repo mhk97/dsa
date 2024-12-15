@@ -19,15 +19,11 @@ class Solution {
         return solve(root, null, null);
     }
 
-    public boolean solve(TreeNode root, Integer low, Integer high) {
+    public boolean solve(TreeNode root, Integer min, Integer max) {
         if (root == null) return true;
 
-        if ((low!= null && root.val <= low) ||
-         (high != null && root.val >= high)) return false;
+        if ((min != null && root.val <= min) || (max != null && root.val >= max)) return false;
 
-        boolean left = solve(root.left, low, root.val);
-        boolean right = solve(root.right, root.val, high);
-
-        return left && right;
+        return solve(root.left, min, root.val) && solve(root.right, root.val, max);
     }
 }
