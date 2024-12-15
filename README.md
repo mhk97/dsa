@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [1146-greatest-common-divisor-of-strings](https://github.com/mhk97/dsa/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1585-the-kth-factor-of-n](https://github.com/mhk97/dsa/tree/master/1585-the-kth-factor-of-n) |
 ## Array
 |  |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/mhk97/dsa/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
+| [1146-greatest-common-divisor-of-strings](https://github.com/mhk97/dsa/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1894-merge-strings-alternately](https://github.com/mhk97/dsa/tree/master/1894-merge-strings-alternately) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/mhk97/dsa/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/mhk97/dsa/tree/master/2599-take-k-of-each-character-from-left-and-right) |
