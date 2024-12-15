@@ -1,8 +1,8 @@
 class Solution {
 
     public int[] searchRange(int[] nums, int target) {
-        int lb = findLB(nums, target), ub = findUB(nums, target), ubb = (ub == -1) ? -1 : ub;
-        return new int[] { lb, ubb };
+        int lb = findLB(nums, target), ub = findUB(nums, target);
+        return new int[] { lb, ub };
     }
 
     public int findLB(int[] nums, int k) {
