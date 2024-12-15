@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/mhk97/dsa/tree/master/1039-find-the-town-judge) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mhk97/dsa/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/mhk97/dsa/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1646-kth-missing-positive-number](https://github.com/mhk97/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/mhk97/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -384,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
 | [0907-koko-eating-bananas](https://github.com/mhk97/dsa/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
+| [1646-kth-missing-positive-number](https://github.com/mhk97/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
