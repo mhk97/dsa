@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/mhk97/dsa/tree/master/0721-accounts-merge) |
 | [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/mhk97/dsa/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/mhk97/dsa/tree/master/0890-lemonade-change) |
 | [0898-transpose-matrix](https://github.com/mhk97/dsa/tree/master/0898-transpose-matrix) |
 | [0907-koko-eating-bananas](https://github.com/mhk97/dsa/tree/master/0907-koko-eating-bananas) |
@@ -392,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0278-first-bad-version](https://github.com/mhk97/dsa/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/mhk97/dsa/tree/master/0300-longest-increasing-subsequence) |
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/mhk97/dsa/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/mhk97/dsa/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 | [1646-kth-missing-positive-number](https://github.com/mhk97/dsa/tree/master/1646-kth-missing-positive-number) |
