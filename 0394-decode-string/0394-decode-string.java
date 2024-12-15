@@ -12,20 +12,22 @@ class Solution {
                 stack.push(String.valueOf(c));
                 k = 0;
             } else {
+                StringBuilder curr = new StringBuilder();
                 int num = (!nums.isEmpty()) ? nums.pop() : 1;
-                StringBuilder sb = new StringBuilder();
                 while (!stack.isEmpty() && !stack.peek().equals("[")) {
-                    sb.insert(0, stack.pop());
+                    curr.insert(0, stack.pop());
                 }
 
                 if (!stack.isEmpty()) stack.pop();
-
-                stack.push(sb.toString().repeat(num));
+                stack.push(curr.toString().repeat(num));
             }
         }
 
-        StringBuilder sb = new StringBuilder();
-        while (!stack.isEmpty()) sb.insert(0, stack.pop());
-        return sb.toString();
+        StringBuilder curr = new StringBuilder();
+        while (!stack.isEmpty()) {
+            curr.insert(0, stack.pop());
+        }
+
+        return curr.toString();
     }
 }
