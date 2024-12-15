@@ -1,6 +1,13 @@
 class Solution {
 
     public void nextPermutation(int[] nums) {
+        //from right to left find first bp where n[i] < n[i+1]
+        // if no such bp return reversed arr
+
+        // find num from numlen-1 to bp, such that num is greater or equal to num
+        // swap this with bp num
+        // reverse/sort the arr from bp to num.len-1
+        
         int breakPt = Integer.MAX_VALUE;
 
         for (int i = nums.length - 2; i >= 0; i--) {
