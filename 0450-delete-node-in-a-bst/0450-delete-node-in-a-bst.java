@@ -14,30 +14,27 @@
  * }
  */
 class Solution {
-    public TreeNode deleteNode(TreeNode root, int key) {
-        if(root == null) return root;
 
-        if(root.val == key){
+    public TreeNode deleteNode(TreeNode root, int key) {
+        if (root == null) return null;
+
+        if (root.val == key) {
             return helper(root);
         }
 
         TreeNode dummy = root;
-        while(root!=null){
-            if(root.val > key){
-                //left
-                if(root.left!=null && root.left.val == key){
+
+        while (root != null) {
+            if (root.val > key) {
+                if (root.left != null && root.left.val == key) {
                     root.left = helper(root.left);
-                    break;
-                }else{
+                } else {
                     root = root.left;
                 }
-            }   
-            else{
-                //right
-                if(root.right!=null && root.right.val == key){
+            } else {
+                if (root.right != null && root.right.val == key) {
                     root.right = helper(root.right);
-                    break;
-                }else{
+                } else {
                     root = root.right;
                 }
             }
@@ -46,18 +43,19 @@ class Solution {
         return dummy;
     }
 
-    public TreeNode helper(TreeNode node){
-        if(node.left == null) return node.right;
-        if(node.right == null) return node.left;
+    public TreeNode helper(TreeNode node) {
+        if (node.left == null) return node.right;
+        if (node.right == null) return node.left;
 
         TreeNode right = node.right;
         TreeNode rightMostOnLeft = find(node.left);
         rightMostOnLeft.right = right;
+
         return node.left;
     }
 
-    public TreeNode find(TreeNode root){
-        if(root.right == null) return root;
-        return find(root.right);
+    public TreeNode find(TreeNode node) {
+        if (node.right == null) return node;
+        return find(node.right);
     }
 }
