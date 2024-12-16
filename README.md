@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2176-parallel-courses-iii](https://github.com/mhk97/dsa/tree/master/2176-parallel-courses-iii) |
 | [2232-adding-spaces-to-a-string](https://github.com/mhk97/dsa/tree/master/2232-adding-spaces-to-a-string) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/mhk97/dsa/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/mhk97/dsa/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/mhk97/dsa/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/mhk97/dsa/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mhk97/dsa/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/mhk97/dsa/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## String
 |  |
@@ -413,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/mhk97/dsa/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/mhk97/dsa/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/mhk97/dsa/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/mhk97/dsa/tree/master/3643-zero-array-transformation-ii) |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/mhk97/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/mhk97/dsa/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/mhk97/dsa/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/mhk97/dsa/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Heap (Priority Queue)
 |  |
