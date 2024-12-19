@@ -10,13 +10,13 @@ class MinStack {
             stack.push(new int[] { val, val });
             return;
         }
-        stack.push(new int[] { val, Math.min(val, stack.peek()[1]) });
+
+        int min = stack.peek()[1];
+        stack.push(new int[] { val, Math.min(val, min) });
     }
 
     public void pop() {
-        if (!stack.isEmpty()) {
-            stack.pop();
-        }
+        stack.pop();
     }
 
     public int top() {
