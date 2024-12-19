@@ -1,22 +1,24 @@
 class Solution {
 
     public boolean isHappy(int n) {
-        int slow = n, fast = next(n);
+        HashSet<Integer> set = new HashSet();
+        set.add(n);
 
-        while (fast != 1 && slow != fast) {
-            slow = next(slow);
-            fast = (next(next(fast)));
+        while (true) {
+            int x = generateNumber(n);
+            if (x == 1) return true;
+
+            if (set.contains(x)) return false; else set.add(x);
+            n = x;
         }
-
-        return fast == 1;
     }
 
-    public int next(int n) {
+    public int generateNumber(int x) {
         int res = 0;
-        while (n > 0) {
-            int pop = n % 10;
-            n = n / 10;
-            res += pop * pop;
+        while (x != 0) {
+            int pop = x % 10;
+            res = res + pop * pop;
+            x = x / 10;
         }
         return res;
     }
