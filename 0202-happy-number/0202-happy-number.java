@@ -1,16 +1,15 @@
 class Solution {
 
     public boolean isHappy(int n) {
-        HashSet<Integer> set = new HashSet();
-        set.add(n);
+        int slow = n;
+        int fast = generateNumber(n);
 
-        while (true) {
-            int x = generateNumber(n);
-            if (x == 1) return true;
-
-            if (set.contains(x)) return false; else set.add(x);
-            n = x;
+        while (fast != 1 && slow != fast) {
+            fast = generateNumber(generateNumber(fast));
+            slow = generateNumber(slow);
         }
+
+        return fast == 1;
     }
 
     public int generateNumber(int x) {
