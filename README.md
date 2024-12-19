@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/mhk97/dsa/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/mhk97/dsa/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/mhk97/dsa/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/mhk97/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/mhk97/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/mhk97/dsa/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/mhk97/dsa/tree/master/0231-power-of-two) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/mhk97/dsa/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/mhk97/dsa/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/mhk97/dsa/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/mhk97/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/mhk97/dsa/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/mhk97/dsa/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/mhk97/dsa/tree/master/0169-majority-element) |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/mhk97/dsa/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/mhk97/dsa/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/mhk97/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/mhk97/dsa/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/mhk97/dsa/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
