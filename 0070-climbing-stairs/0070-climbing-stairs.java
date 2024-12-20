@@ -1,9 +1,15 @@
 class Solution {
-    Integer cache[] = new Integer[46];
+    Integer cache[];
 
     public int climbStairs(int n) {
-        if (n <= 0) return n == 0 ? 1 : 0;
+        cache = new Integer[46];
+        return solve(n);
+    }
+
+    public int solve(int n) {
+        if (n == 0) return 1;
+        if (n < 0) return 0;
         if (cache[n] != null) return cache[n];
-        return cache[n] = climbStairs(n - 1) + climbStairs(n - 2);
+        return cache[n] = solve(n - 1) + solve(n - 2);
     }
 }
