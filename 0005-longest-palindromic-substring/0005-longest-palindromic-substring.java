@@ -1,12 +1,12 @@
 class Solution {
+    Boolean cache[][];
 
     public String longestPalindrome(String s) {
-        int n = s.length();
-        Boolean cache[][] = new Boolean[n + 1][n + 1];
         String res = "";
-        for (int i = 0; i < n; i++) {
-            for (int j = i; j < n; j++) {
-                if (isPalindrome(s, i, j, cache) == true && res.length() < (j - i + 1)) {
+        cache = new Boolean[s.length()][s.length()];
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i; j < s.length(); j++) {
+                if (palindrome(s, i, j) && (j - i + 1) > res.length()) {
                     res = s.substring(i, j + 1);
                 }
             }
@@ -15,12 +15,11 @@ class Solution {
         return res;
     }
 
-    public boolean isPalindrome(String s, int i, int j, Boolean cache[][]) {
+    public boolean palindrome(String s, int i, int j) {
         if (i > j) return true;
-
-        if (cache[i][j] != null) return cache[i][j];
         if (s.charAt(i) != s.charAt(j)) return false;
+        if (cache[i][j] != null) return cache[i][j];
 
-        return cache[i][j] = isPalindrome(s, i + 1, j - 1, cache);
+        return cache[i][j] = palindrome(s, i + 1, j - 1);
     }
 }
