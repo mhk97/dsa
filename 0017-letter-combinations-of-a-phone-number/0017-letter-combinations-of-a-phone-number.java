@@ -3,7 +3,7 @@ class Solution {
     Map<Integer, String> map = new HashMap();
 
     public List<String> letterCombinations(String digits) {
-        if(digits.length() <= 0) return res;
+        if (digits.length() <= 0) return res;
 
         map.put(2, "abc");
         map.put(3, "def");
@@ -18,17 +18,16 @@ class Solution {
         return res;
     }
 
-    public void solve(String d, int i, StringBuilder sb) {
-        if (i >= d.length()) {
+    public void solve(String digits, int idx, StringBuilder sb) {
+        if (idx >= digits.length()) {
             res.add(sb.toString());
             return;
         }
 
-        String curr = map.get(d.charAt(i)-'0');
-
-        for (int k = 0; k < curr.length(); k++) {
-            sb.append(curr.charAt(k));
-            solve(d, i + 1, sb);
+        String s = map.get(digits.charAt(idx) - '0');
+        for (int i = 0; i < s.length(); i++) {
+            sb.append(s.charAt(i));
+            solve(digits, idx + 1, sb);
             sb.deleteCharAt(sb.length() - 1);
         }
     }
