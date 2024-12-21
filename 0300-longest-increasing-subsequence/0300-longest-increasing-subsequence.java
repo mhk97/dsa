@@ -6,14 +6,15 @@ class Solution {
         return solve(nums, 0, -1);
     }
 
-    public int solve(int[] nums, int i, int lastIndex) {
-        if (i >= nums.length) return 0;
+    public int solve(int nums[], int ind, int prevInd) {
+        if (ind >= nums.length) return 0;
 
-        if (cache[i][lastIndex + 1] != null) return cache[i][lastIndex + 1];
+        if (cache[ind][prevInd + 1] != null) return cache[ind][prevInd + 1];
 
-        int take = (lastIndex == -1 || (lastIndex < nums.length && nums[i] > nums[lastIndex])) ? 1 + solve(nums, i + 1, i) : Integer.MIN_VALUE;
-        int skip = solve(nums, i + 1, lastIndex);
+        int take = (prevInd == -1 || nums[prevInd] < nums[ind]) ? 1 + solve(nums, ind + 1, ind) : Integer.MIN_VALUE;
 
-        return cache[i][lastIndex + 1] = Math.max(take, skip);
+        int skip = solve(nums, ind + 1, prevInd);
+
+        return cache[ind][prevInd + 1] = Math.max(take, skip);
     }
 }
