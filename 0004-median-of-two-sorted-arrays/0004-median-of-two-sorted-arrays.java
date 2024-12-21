@@ -1,24 +1,27 @@
 class Solution {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int[] res = new int[nums1.length + nums2.length];
+        int n1 = nums1.length, n2 = nums2.length;
 
-        int i = 0, j = 0, m = nums1.length, n = nums2.length, p = 0;
+        if (n1 > n2) return findMedianSortedArrays(nums2, nums1);
 
-        while (i < m && j < n) {
-            if (nums1[i] <= nums2[j]) {
-                res[p++] = nums1[i++];
-            } else res[p++] = nums2[j++];
+        int l = 0, h = n1, partition = (n1 + n2 + 1) / 2;
+
+        while (l <= h) {
+            int mid1 = l + (h - l) / 2;
+            int mid2 = partition - mid1;
+            int l1 = (mid1 - 1 >= 0) ? nums1[mid1 - 1] : Integer.MIN_VALUE;
+            int r1 = (mid1 < n1) ? nums1[mid1] : Integer.MAX_VALUE;
+            int l2 = (mid2 - 1 >= 0) ? nums2[mid2 - 1] : Integer.MIN_VALUE;
+            int r2 = (mid2 < n2) ? nums2[mid2] : Integer.MAX_VALUE;
+
+            if (l1 > r2) h = mid1 - 1; else if (l2 > r1) l = mid1 + 1; else {
+                if ((n1 + n2) % 2 == 1) {
+                    return Math.max(l1, l2);
+                } else return (double) (Math.max(l1, l2) + Math.min(r1, r2)) / 2;
+            }
         }
 
-        while (i < m) res[p++] = nums1[i++];
-        while (j < n) res[p++] = nums2[j++];
-
-        if ((m + n) % 2 == 1) {
-            return (double) res[(m + n) / 2];
-        } else {
-            int id = (m + n) / 2;
-            return (double) (res[id] + res[id - 1]) / 2.0;
-        }
+        return -1;
     }
 }
