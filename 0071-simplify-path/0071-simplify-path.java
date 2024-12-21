@@ -9,15 +9,12 @@ class Solution {
             } else stack.push(s);
         }
 
-        Stack<String> revStack = new Stack();
-        while (!stack.isEmpty()) revStack.push(stack.pop());
-
-        StringBuilder sb = new StringBuilder("/");
-        while (!revStack.isEmpty()) {
-            sb.append(revStack.pop());
-            if (!revStack.isEmpty()) sb.append("/");
+        StringBuilder result = new StringBuilder();
+        for (String dir : stack) {
+            result.append("/");
+            result.append(dir);
         }
 
-        return sb.toString();
+        return result.length() > 0 ? result.toString() : "/";
     }
 }
