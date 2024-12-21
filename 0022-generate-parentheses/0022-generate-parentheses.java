@@ -12,20 +12,18 @@ class Solution {
             return;
         }
 
-        if (o < 0 || c < 0) {
-            return;
-        }
+        if (o < 0 || c < 0) return;
 
         if (o == c) {
-            sb.append('(');
+            sb.append("(");
             solve(o - 1, c, sb);
-            sb.deleteCharAt(sb.length()-1);
+            sb.deleteCharAt(sb.length() - 1);
         } else {
-            sb.append('(');
+            sb.append("(");
             solve(o - 1, c, sb);
             sb.deleteCharAt(sb.length() - 1);
 
-            sb.append(')');
+            sb.append(")");
             solve(o, c - 1, sb);
             sb.deleteCharAt(sb.length() - 1);
         }
