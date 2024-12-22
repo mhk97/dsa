@@ -1,16 +1,13 @@
 class Solution {
 
-    public boolean canChange(String s, String t) {
-        int sid = 0, tid = 0, n = s.length();
+    public boolean canChange(String start, String target) {
+        int sid = 0, tid = 0, slen = start.length(), tlen = target.length();
 
-        while (sid < n || tid < n) {
-            while (sid < n && s.charAt(sid) == '_') sid++;
-            while (tid < n && t.charAt(tid) == '_') tid++;
+        while (sid < slen && tid < tlen) {
+            while (sid < slen && start.charAt(sid) == '_') sid++;
+            while (tid < tlen && target.charAt(tid) == '_') tid++;
 
-            if (sid >= n && tid >= n) return true;
-            if (sid >= n || tid >= n) return false;
-
-            if (s.charAt(sid) != t.charAt(tid) || (s.charAt(sid) == 'L' && sid < tid) || (s.charAt(sid) == 'R' && sid > tid)) return false;
+            if (start.charAt(sid) != target.charAt(tid) || (start.charAt(sid) == 'L' && sid < tid) || (start.charAt(sid) == 'R' && sid > tid)) return false;
 
             sid++;
             tid++;
