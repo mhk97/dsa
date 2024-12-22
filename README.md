@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0954-maximum-sum-circular-subarray](https://github.com/mhk97/dsa/tree/master/0954-maximum-sum-circular-subarray) |
 | [0976-minimum-area-rectangle](https://github.com/mhk97/dsa/tree/master/0976-minimum-area-rectangle) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/mhk97/dsa/tree/master/0987-reveal-cards-in-increasing-order) |
+| [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/mhk97/dsa/tree/master/1039-find-the-town-judge) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
+| [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mhk97/dsa/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mhk97/dsa/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Backtracking
@@ -647,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
+| [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mhk97/dsa/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Prefix Sum
 |  |
