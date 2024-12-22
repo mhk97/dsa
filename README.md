@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/mhk97/dsa/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/mhk97/dsa/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
+| [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mhk97/dsa/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/mhk97/dsa/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/mhk97/dsa/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/mhk97/dsa/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -353,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/mhk97/dsa/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/mhk97/dsa/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mhk97/dsa/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 ## Matrix
 |  |
 | ------- |
@@ -692,4 +694,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/mhk97/dsa/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Enumeration
+|  |
+| ------- |
+| [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mhk97/dsa/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 <!---LeetCode Topics End-->
