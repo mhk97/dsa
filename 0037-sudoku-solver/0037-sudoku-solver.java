@@ -1,40 +1,45 @@
 class Solution {
+    int r, c;
 
     public void solveSudoku(char[][] board) {
+        r = board.length;
+        c = board[0].length;
+
         solve(board);
     }
 
     public boolean solve(char[][] board) {
-        int row = board.length, col = board[0].length;
-        for (int r = 0; r < row; r++) {
-            for (int c = 0; c < col; c++) {
-                if (board[r][c] == '.') {
-                    for (char i = '1'; i <= '9'; i++) {
-                        if (isValid(r, c, i, board)) {
-                            board[r][c] = i;
-                            if (solve(board)) return true; else board[r][c] = '.';
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                if (board[i][j] == '.') {
+                    for (char num = '1'; num <= '9'; num++) {
+                        if (canPlace(board, i, j, num) == true) {
+                            board[i][j] = num;
+                            if (solve(board) == true) return true;
+                            board[i][j] = '.';
                         }
                     }
                     return false;
                 }
             }
         }
+
         return true;
     }
 
-    public boolean isValid(int r, int c, char v, char[][] board) {
+    public boolean canPlace(char[][] board, int row, int col, char num) {
         for (int i = 0; i < 9; i++) {
-            //check row
-            if (board[i][c] == v) return false;
+            //col
+            if (board[row][i] == num) return false;
 
-            //check col
-            if (board[r][i] == v) return false;
+            //row
+            if (board[i][col] == num) return false;
 
-            //check box
-            int row = 3 * (r / 3) + i / 3;
-            int col = 3 * (c / 3) + i % 3;
+            //9*9
+            int r_ = 3 * (row / 3) + i / 3;
+            int c_ = 3 * (col / 3) + i % 3;
 
-            if (board[row][col] == v) return false;
+            if (board[r_][c_] == num) return false;
         }
 
         return true;
