@@ -2,8 +2,9 @@ class Solution {
 
     public int splitArray(int[] nums, int k) {
         int l = Integer.MIN_VALUE, h = 0, res = Integer.MAX_VALUE;
+
         for (int i : nums) {
-            l = Math.max(i, l);
+            l = Math.max(l, i);
             h += i;
         }
 
@@ -19,13 +20,14 @@ class Solution {
         return res;
     }
 
-    public boolean canSplit(int[] nums, int mid, int k) {
-        int curr = nums[0], cnt = 1;
+    public boolean canSplit(int[] nums, int max, int k) {
+        int temp = nums[0], cnt = 1;
+
         for (int i = 1; i < nums.length; i++) {
-            curr += nums[i];
-            if (curr <= mid) continue; else {
+            temp += nums[i];
+            if (temp <= max) continue; else {
                 cnt++;
-                curr = nums[i];
+                temp = nums[i];
                 if (cnt > k) return false;
             }
         }
