@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/mhk97/dsa/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/mhk97/dsa/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/mhk97/dsa/tree/master/0455-assign-cookies) |
+| [0567-permutation-in-string](https://github.com/mhk97/dsa/tree/master/0567-permutation-in-string) |
 | [1894-merge-strings-alternately](https://github.com/mhk97/dsa/tree/master/1894-merge-strings-alternately) |
 | [2232-adding-spaces-to-a-string](https://github.com/mhk97/dsa/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/mhk97/dsa/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/mhk97/dsa/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/mhk97/dsa/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/mhk97/dsa/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/mhk97/dsa/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
@@ -346,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/mhk97/dsa/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/mhk97/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/mhk97/dsa/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/mhk97/dsa/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/mhk97/dsa/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/mhk97/dsa/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
@@ -497,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/mhk97/dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/mhk97/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/mhk97/dsa/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/mhk97/dsa/tree/master/0567-permutation-in-string) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/mhk97/dsa/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/mhk97/dsa/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
