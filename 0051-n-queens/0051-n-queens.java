@@ -1,49 +1,75 @@
 class Solution {
     List<List<String>> res = new ArrayList();
+    int n;
 
     public List<List<String>> solveNQueens(int n) {
-        char[][] board = new char[n][n];
-        //create an empty board
+        this.n = n;
+
+        List<StringBuilder> temp = new ArrayList();
+        String t = ".".repeat(n);
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                board[i][j] = '.';
-            }
+            temp.add(new StringBuilder(t));
         }
 
-        solve(board, new int[n], new int[2 * n - 1], new int[2 * n - 1], 0);
+        solve(temp, 0);
+
         return res;
     }
 
-    public void addRes(char[][] board) {
-        List<String> temp = new ArrayList();
-        for (char r[] : board) {
-            temp.add(new String(r));
+    public void addRes(List<StringBuilder> temp) {
+        List<String> pep = new ArrayList();
+        for (StringBuilder sb : temp) {
+            pep.add(sb.toString());
         }
-        res.add(temp);
+
+        res.add(pep);
     }
 
-    public void solve(char[][] board, int[] left, int[] upper, int[] lower, int col) {
-        if (col == board.length) {
-            addRes(board);
+    public void solve(List<StringBuilder> temp, int c) {
+        if (c >= n) {
+            addRes(temp);
             return;
         }
 
-        for (int r = 0; r < board.length; r++) {
-            int ud = r + col;
-            int ld = (board.length - 1) + col - r;
-            if (upper[ud] == 1 || lower[ld] == 1 || left[r] == 1) continue; // not placable
-
-            upper[ud] = 1;
-            lower[ld] = 1;
-            left[r] = 1;
-            board[r][col] = 'Q';
-
-            solve(board, left, upper, lower, col + 1);
-
-            upper[ud] = 0;
-            lower[ld] = 0;
-            left[r] = 0;
-            board[r][col] = '.';
+        for (int i = 0; i < n; i++) {
+            if (safe(i, c, temp)) {
+                StringBuilder t = temp.get(i);
+                t.setCharAt(c, 'Q');
+                solve(temp, c + 1);
+                t.setCharAt(c, '.');
+            }
         }
+    }
+
+    public boolean safe(int r, int c, List<StringBuilder> temp) {
+        int tempR = r, tempC = c;
+
+        while (r >= 0 && c >= 0) {
+            StringBuilder t = temp.get(r);
+            if (t.charAt(c) == 'Q') return false;
+            r--;
+            c--;
+        }
+
+        r = tempR;
+        c = tempC;
+
+        while (c >= 0) {
+            StringBuilder t = temp.get(r);
+            if (t.charAt(c) == 'Q') return false;
+            c--;
+        }
+
+        r = tempR;
+        c = tempC;
+
+        while (r < n && c >= 0) {
+            StringBuilder t = temp.get(r);
+            if (t.charAt(c) == 'Q') return false;
+            r++;
+            c--;
+        }
+
+        return true;
     }
 }
