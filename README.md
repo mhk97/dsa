@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/mhk97/dsa/tree/master/0890-lemonade-change) |
 | [0898-transpose-matrix](https://github.com/mhk97/dsa/tree/master/0898-transpose-matrix) |
 | [0907-koko-eating-bananas](https://github.com/mhk97/dsa/tree/master/0907-koko-eating-bananas) |
+| [0940-fruit-into-baskets](https://github.com/mhk97/dsa/tree/master/0940-fruit-into-baskets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/mhk97/dsa/tree/master/0954-maximum-sum-circular-subarray) |
 | [0976-minimum-area-rectangle](https://github.com/mhk97/dsa/tree/master/0976-minimum-area-rectangle) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/mhk97/dsa/tree/master/0987-reveal-cards-in-increasing-order) |
@@ -364,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/mhk97/dsa/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/mhk97/dsa/tree/master/0778-reorganize-string) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/mhk97/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0940-fruit-into-baskets](https://github.com/mhk97/dsa/tree/master/0940-fruit-into-baskets) |
 | [0976-minimum-area-rectangle](https://github.com/mhk97/dsa/tree/master/0976-minimum-area-rectangle) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 | [1039-find-the-town-judge](https://github.com/mhk97/dsa/tree/master/1039-find-the-town-judge) |
@@ -517,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/mhk97/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/mhk97/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/mhk97/dsa/tree/master/0567-permutation-in-string) |
+| [0940-fruit-into-baskets](https://github.com/mhk97/dsa/tree/master/0940-fruit-into-baskets) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/mhk97/dsa/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/mhk97/dsa/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
