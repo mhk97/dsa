@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3178-minimum-increment-operations-to-make-array-beautiful](https://github.com/mhk97/dsa/tree/master/3178-minimum-increment-operations-to-make-array-beautiful) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mhk97/dsa/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/mhk97/dsa/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/mhk97/dsa/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/mhk97/dsa/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/mhk97/dsa/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1762-furthest-building-you-can-reach](https://github.com/mhk97/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/mhk97/dsa/tree/master/2687-lexicographically-smallest-beautiful-string) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/mhk97/dsa/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 | [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
 ## Sorting
 |  |
@@ -286,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
 | [2176-parallel-courses-iii](https://github.com/mhk97/dsa/tree/master/2176-parallel-courses-iii) |
 | [3178-minimum-increment-operations-to-make-array-beautiful](https://github.com/mhk97/dsa/tree/master/3178-minimum-increment-operations-to-make-array-beautiful) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/mhk97/dsa/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Stack
 |  |
 | ------- |
@@ -302,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mhk97/dsa/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mhk97/dsa/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/mhk97/dsa/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Backtracking
 |  |
 | ------- |
@@ -661,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
 | [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mhk97/dsa/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/mhk97/dsa/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
 ## Prefix Sum
 |  |
 | ------- |
