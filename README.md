@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/mhk97/dsa/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/mhk97/dsa/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
+| [3178-minimum-increment-operations-to-make-array-beautiful](https://github.com/mhk97/dsa/tree/master/3178-minimum-increment-operations-to-make-array-beautiful) |
 | [3299-find-the-maximum-number-of-elements-in-subset](https://github.com/mhk97/dsa/tree/master/3299-find-the-maximum-number-of-elements-in-subset) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/mhk97/dsa/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/mhk97/dsa/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mhk97/dsa/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
 | [2176-parallel-courses-iii](https://github.com/mhk97/dsa/tree/master/2176-parallel-courses-iii) |
+| [3178-minimum-increment-operations-to-make-array-beautiful](https://github.com/mhk97/dsa/tree/master/3178-minimum-increment-operations-to-make-array-beautiful) |
 ## Stack
 |  |
 | ------- |
