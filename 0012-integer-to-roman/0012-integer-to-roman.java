@@ -1,32 +1,35 @@
 class Solution {
 
     public String intToRoman(int num) {
-        Map<Integer, String> map = new LinkedHashMap<>();
-        map.put(1000, "M");
-        map.put(900, "CM");
-        map.put(500, "D");
-        map.put(400, "CD");
-        map.put(100, "C");
-        map.put(90, "XC");
-        map.put(50, "L");
-        map.put(40, "XL");
-        map.put(10, "X");
-        map.put(9, "IX");
-        map.put(5, "V");
-        map.put(4, "IV");
-        map.put(1, "I");
+        List<Pair<Integer, String>> list = Arrays.asList(
+            new Pair(1000, "M"),
+            new Pair(900, "CM"),
+            new Pair(500, "D"),
+            new Pair(400, "CD"),
+            new Pair(100, "C"),
+            new Pair(90, "XC"),
+            new Pair(50, "L"),
+            new Pair(40, "XL"),
+            new Pair(10, "X"),
+            new Pair(9, "IX"),
+            new Pair(5, "V"),
+            new Pair(4, "IV"),
+            new Pair(1, "I")
+        );
 
         StringBuilder sb = new StringBuilder();
 
-        for (Map.Entry<Integer, String> entry : map.entrySet()) {
-            int k = entry.getKey();
+        for (Pair<Integer, String> p : list) {
+            if (num == 0) break;
 
-            int x = num / k;
-            sb.append(entry.getValue().repeat(x));
+            int k = p.getKey();
+            String v = p.getValue();
+
+            int times = num / k;
 
             num = num % k;
 
-            if (num == 0) break;
+            sb.append(v.repeat(times));
         }
 
         return sb.toString();
