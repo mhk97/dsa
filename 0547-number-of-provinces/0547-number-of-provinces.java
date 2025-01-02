@@ -1,26 +1,33 @@
 class Solution {
 
-    public int findCircleNum(int[][] arr) {
-        int V = arr.length, res = 0;
-        boolean visited[] = new boolean[V];
-
+    public int findCircleNum(int[][] m) {
+        int V = m.length;
+        Map<Integer, List<Integer>> map = new HashMap();
         for (int i = 0; i < V; i++) {
+            for (int j = 0; j < V; j++) {
+                if (i != j && m[i][j] == 1) {
+                    map.computeIfAbsent(i, k -> new ArrayList()).add(j);
+                    map.computeIfAbsent(j, k -> new ArrayList()).add(i);
+                }
+            }
+        }
+
+        boolean visited[] = new boolean[V];
+        int res = 0;
+        for (int i = 0; i < m.length; i++) {
             if (visited[i] == false) {
-                res++;
-                dfs(arr, visited, i);
+                res += 1;
+                dfs(visited, map, i);
             }
         }
 
         return res;
     }
 
-    public void dfs(int[][] arr, boolean[] visited, int u) {
+    public void dfs(boolean visited[], Map<Integer, List<Integer>> map, int u) {
         visited[u] = true;
-
-        for (int v = 0; v < arr[u].length; v++) {
-            if (arr[u][v] == 1 && visited[v] == false) {
-                dfs(arr, visited, v);
-            }
+        for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
+            if (visited[v] == false) dfs(visited, map, v);
         }
     }
 }
