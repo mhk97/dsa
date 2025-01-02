@@ -1,20 +1,19 @@
 class Solution {
 
-    public boolean canChange(String start, String target) {
-        int sid = 0, tid = 0, slen = start.length(), tlen = target.length();
+    public boolean canChange(String s, String t) {
+        int i = 0, j = 0, slen = s.length(), tlen = t.length();
 
-        while (sid < slen || tid < tlen) {
-            while (sid < slen && start.charAt(sid) == '_') sid++;
-            while (tid < tlen && target.charAt(tid) == '_') tid++;
+        while (i < slen || j < tlen) {
+            while (i < slen && s.charAt(i) == '_') i++;
+            while (j < tlen && t.charAt(j) == '_') j++;
 
-            if (sid >= slen && tid >= tlen) return true;
+            if (i >= slen && j >= tlen) return true;
+            if (i >= slen || j >= tlen) return false;
 
-            if (sid >= tlen || tid >= tlen) return false;
+            if ((s.charAt(i) != t.charAt(j)) || (s.charAt(i) == 'L' && i < j) || (s.charAt(i) == 'R' && i > j)) return false;
 
-            if (start.charAt(sid) != target.charAt(tid) || (start.charAt(sid) == 'L' && sid < tid) || (start.charAt(sid) == 'R' && sid > tid)) return false;
-
-            sid++;
-            tid++;
+            i++;
+            j++;
         }
 
         return true;
