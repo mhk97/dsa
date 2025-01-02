@@ -1,18 +1,14 @@
 class Solution {
 
     public int kthFactor(int n, int k) {
-        int kth = 1;
-        int res = 1;
-        if (k == 1) return kth;
+        int res = 0;
 
-        for (int i = 2; i <= n / 2; i++) {
-            if ((n % i) == 0) {
-                kth++;
-                if (kth == k) return i;
-            }
+        for (int i = 1; i <= n / 2; i++) {
+            if (n % i == 0) k--;
+            if (k == 0) return i;
         }
 
-        if (k == kth + 1) return n;
+        if (k == 1) return n;
 
         return -1;
     }
