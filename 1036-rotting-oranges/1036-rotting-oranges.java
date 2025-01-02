@@ -1,13 +1,14 @@
 class Solution {
-    int dirs[][] = new int[][] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
     public int orangesRotting(int[][] grid) {
-        int r = grid.length, c = grid[0].length, fresh = 0, res = -1;
+        int row = grid.length, col = grid[0].length;
+        int dirs[][] = new int[][] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
         Queue<int[]> q = new LinkedList();
+        int fresh = 0;
 
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
                 if (grid[i][j] == 2) {
                     q.add(new int[] { i, j });
                 } else if (grid[i][j] == 1) fresh++;
@@ -17,22 +18,27 @@ class Solution {
         if (fresh == 0) return 0;
         if (q.isEmpty()) return -1;
 
+        int res = 0;
+
         while (!q.isEmpty()) {
             int size = q.size();
-            res++;
+            res += 1;
+
             for (int i = 0; i < size; i++) {
                 int[] temp = q.poll();
+                int r = temp[0], c = temp[1];
+
                 for (int d[] : dirs) {
-                    int nr = temp[0] + d[0], nc = temp[1] + d[1];
-                    if (nr < r && nr >= 0 && nc < c && nc >= 0 && grid[nr][nc] == 1) {
+                    int nr = r + d[0], nc = c + d[1];
+                    if (nr < row && nc < col && nr >= 0 && nc >= 0 && grid[nr][nc] == 1) {
                         q.add(new int[] { nr, nc });
-                        grid[nr][nc] = 2;
                         fresh--;
+                        grid[nr][nc] = 2;
                     }
                 }
             }
         }
 
-        return (fresh > 0) ? -1 : res;
+        return fresh <= 0 ? res - 1 : -1;
     }
 }
