@@ -6,19 +6,16 @@ class Solution {
         return res;
     }
 
-    void solve(int[] nums, int i, List<Integer> temp) {
-        if (i == nums.length) {
-            res.add(new ArrayList(temp));
+    public void solve(int nums[], int i, List<Integer> list) {
+        if (i >= nums.length) {
+            res.add(new ArrayList(list));
             return;
         }
 
-        //take
-        temp.add(nums[i]);
-        solve(nums, i + 1, temp);
+        list.add(nums[i]);
+        solve(nums, i + 1, list);
+        list.remove(list.size() - 1);
 
-        temp.remove(temp.size() - 1);
-
-        //not take
-        solve(nums, i + 1, temp);
+        solve(nums, i + 1, list);
     }
 }
