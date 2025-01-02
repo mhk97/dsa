@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/mhk97/dsa/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/mhk97/dsa/tree/master/0721-accounts-merge) |
 | [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/mhk97/dsa/tree/master/0739-daily-temperatures) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/mhk97/dsa/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/mhk97/dsa/tree/master/0890-lemonade-change) |
 | [0898-transpose-matrix](https://github.com/mhk97/dsa/tree/master/0898-transpose-matrix) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/mhk97/dsa/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/mhk97/dsa/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mhk97/dsa/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mhk97/dsa/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -679,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/mhk97/dsa/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mhk97/dsa/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [3454-minimum-operations-to-make-array-equal-to-target](https://github.com/mhk97/dsa/tree/master/3454-minimum-operations-to-make-array-equal-to-target) |
