@@ -11,30 +11,30 @@
 class Solution {
 
     public ListNode mergeKLists(ListNode[] lists) {
+        if (lists.length == 0) return null;
         return partition(lists, 0, lists.length - 1);
     }
 
     public ListNode partition(ListNode[] lists, int l, int h) {
-        if (l > h) return null;
-        if (l == h) return lists[l];
+        if (l >= h) return lists[l];
 
         int mid = l + (h - l) / 2;
 
-        ListNode l1 = partition(lists, l, mid);
-        ListNode l2 = partition(lists, mid + 1, h);
+        ListNode first = partition(lists, l, mid);
+        ListNode second = partition(lists, mid + 1, h);
 
-        return merge(l1, l2);
+        return merge2sortedList(first, second);
     }
 
-    public ListNode merge(ListNode l1, ListNode l2) {
+    public ListNode merge2sortedList(ListNode l1, ListNode l2) {
         if (l1 == null) return l2;
         if (l2 == null) return l1;
 
         if (l1.val <= l2.val) {
-            l1.next = merge(l1.next, l2);
+            l1.next = merge2sortedList(l1.next, l2);
             return l1;
         } else {
-            l2.next = merge(l1, l2.next);
+            l2.next = merge2sortedList(l1, l2.next);
             return l2;
         }
     }
