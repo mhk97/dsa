@@ -9,27 +9,23 @@ class Solution {
         }
 
         boolean visited[] = new boolean[n];
+        Queue<int[]> q = new LinkedList();
+
+        q.add(new int[] { 0, -1 });
         int cnt = 0;
-        for (int i = 0; i < n; i++) {
-            if (visited[i] == false) {
-                cnt++;
-                if (cnt > 1) return false;
-                if (cycle(i, visited, -1, map) == true) return false;
+
+        while (!q.isEmpty()) {
+            int u[] = q.poll();
+            visited[u[0]] = true;
+            cnt++;
+
+            for (int v : map.getOrDefault(u[0], new ArrayList<Integer>())) {
+                if (v == u[1]) continue;
+                if (visited[v] == true) return false;
+                q.add(new int[] { v, u[0] });
             }
         }
 
-        return true;
-    }
-
-    public boolean cycle(int u, boolean[] visited, int parent, Map<Integer, List<Integer>> map) {
-        visited[u] = true;
-
-        for (int v : map.getOrDefault(u, new ArrayList<Integer>())) {
-            if (parent == v) continue;
-            if (visited[v] == true) return true;
-            if (cycle(v, visited, u, map) == true) return true;
-        }
-
-        return false;
+        return cnt == n;
     }
 }
