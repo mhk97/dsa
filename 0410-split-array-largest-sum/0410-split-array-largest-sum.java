@@ -1,17 +1,18 @@
 class Solution {
 
     public int splitArray(int[] nums, int k) {
-        int l = Integer.MIN_VALUE, h = 0, res = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE, total = 0;
 
         for (int i : nums) {
-            l = Math.max(l, i);
-            h += i;
+            max = Math.max(i, max);
+            total += i;
         }
+
+        int l = max, h = total, res = Integer.MAX_VALUE;
 
         while (l <= h) {
             int mid = l + (h - l) / 2;
-
-            if (canSplit(nums, mid, k) == true) {
+            if (possibleSplit(mid, nums, k) == true) {
                 res = Math.min(res, mid);
                 h = mid - 1;
             } else l = mid + 1;
@@ -20,18 +21,17 @@ class Solution {
         return res;
     }
 
-    public boolean canSplit(int[] nums, int max, int k) {
-        int temp = nums[0], cnt = 1;
-
-        for (int i = 1; i < nums.length; i++) {
-            temp += nums[i];
-            if (temp <= max) continue; else {
-                cnt++;
-                temp = nums[i];
-                if (cnt > k) return false;
+    public boolean possibleSplit(int mid, int[] nums, int k) {
+        int curr = 0;
+        for (int i = 0; i < nums.length; i++) {
+            curr += nums[i];
+            if (curr <= mid) continue; else {
+                curr = nums[i];
+                k--;
+                if (k <= 0) return false;
             }
         }
 
-        return cnt <= k;
+        return true;
     }
 }
