@@ -32,7 +32,7 @@ class Solution {
         int sum1 = left + right + root.val;
         int sum2 = max + root.val;
 
-        res = Math.max(res, Math.max(sum1, sum2));
+        res = Math.max(res, Math.max(sum1, Math.max(sum2, root.val)));
 
         return Math.max(sum2, root.val);
     }
