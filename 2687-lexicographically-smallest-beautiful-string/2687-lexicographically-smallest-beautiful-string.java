@@ -2,32 +2,37 @@ class Solution {
 
     public String smallestBeautifulString(String s, int k) {
         StringBuilder sb = new StringBuilder(s);
+        int n = s.length();
 
-        for (int i = sb.length() - 1; i >= 0; i--) {
-            for (char c = (char) (sb.charAt(i) + 1); c < 'a' + k; c++) {
-                if (check(sb, i, c)) {
-                    sb.setCharAt(i, c);
-
-                    for (int next = i + 1; next < s.length(); next++) {
-                        for (char m = 'a'; m <= 'a' + k; m++) {
-                            if (check(sb, next, m)) {
-                                sb.setCharAt(next, m);
+        for (int i = n - 1; i >= 0; i--) {
+            char curr = (char) (s.charAt(i) + 1);
+            boolean flag = false;
+            for (char next = curr; next < 'a' + k; next++) {
+                if (valid(next, i, sb) == true) {
+                    sb.setCharAt(i, next);
+                    for (int j = i + 1; j < s.length(); j++) {
+                        for (char newc = 'a'; newc < 'a' + k; newc++) {
+                            if (valid(newc, j, sb) == true) {
+                                sb.setCharAt(j, newc);
                                 break;
                             }
                         }
                     }
-
-                    return sb.toString();
+                    flag = true;
+                    break;
                 }
             }
+            if (flag) break;
         }
 
-        return "";
+        return sb.toString().equals(s) ? "" : sb.toString();
     }
 
-    public boolean check(StringBuilder sb, int i, char c) {
-        if (i > 0 && sb.charAt(i - 1) == c) return false;
-        if (i > 1 && sb.charAt(i - 2) == c) return false;
+    public boolean valid(char newc, int i, StringBuilder sb) {
+        if ((i > 0 && sb.charAt(i - 1) == newc) || (i > 1 && sb.charAt(i - 2) == newc)) {
+            return false;
+        }
+
         return true;
     }
 }
