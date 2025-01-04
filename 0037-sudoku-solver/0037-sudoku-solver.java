@@ -1,24 +1,25 @@
 class Solution {
-    int r, c;
+    int row, col;
 
     public void solveSudoku(char[][] board) {
-        r = board.length;
-        c = board[0].length;
+        row = board.length;
+        col = board[0].length;
 
         solve(board);
     }
 
     public boolean solve(char[][] board) {
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
                 if (board[i][j] == '.') {
-                    for (char num = '1'; num <= '9'; num++) {
-                        if (canPlace(board, i, j, num) == true) {
-                            board[i][j] = num;
+                    for (char k = '1'; k <= '9'; k++) {
+                        if (canPlace(i, j, k, board) == true) {
+                            board[i][j] = k;
                             if (solve(board) == true) return true;
                             board[i][j] = '.';
                         }
                     }
+
                     return false;
                 }
             }
@@ -27,19 +28,18 @@ class Solution {
         return true;
     }
 
-    public boolean canPlace(char[][] board, int row, int col, char num) {
-        for (int i = 0; i < 9; i++) {
-            //col
-            if (board[row][i] == num) return false;
+    public boolean canPlace(int i, int j, char k, char[][] board) {
+        for (int m = 0; m < 9; m++) {
+            //row const -- check for col
+            if (board[i][m] == k) return false;
 
-            //row
-            if (board[i][col] == num) return false;
+            //col const -- check for row
+            if (board[m][j] == k) return false;
 
-            //9*9
-            int r_ = 3 * (row / 3) + i / 3;
-            int c_ = 3 * (col / 3) + i % 3;
+            int r_ = 3 * (i / 3) + m / 3;
+            int c_ = 3 * (j / 3) + m % 3;
 
-            if (board[r_][c_] == num) return false;
+            if (board[r_][c_] == k) return false;
         }
 
         return true;
