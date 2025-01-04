@@ -6,8 +6,8 @@ class Solution {
         int nse[] = nextSmallerElement(h);
         int pse[] = previousSmallerElement(h);
 
-        System.out.println(Arrays.toString(nse));
-        System.out.println(Arrays.toString(pse));
+        // System.out.println(Arrays.toString(nse));
+        // System.out.println(Arrays.toString(pse));
 
         int max = 0;
 
