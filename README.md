@@ -472,12 +472,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mhk97/dsa/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1953-finding-mk-average](https://github.com/mhk97/dsa/tree/master/1953-finding-mk-average) |
 ## Data Stream
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/mhk97/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/mhk97/dsa/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
+| [1953-finding-mk-average](https://github.com/mhk97/dsa/tree/master/1953-finding-mk-average) |
 ## Linked List
 |  |
 | ------- |
@@ -582,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/mhk97/dsa/tree/master/1325-path-with-maximum-probability) |
 | [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/mhk97/dsa/tree/master/1762-furthest-building-you-can-reach) |
+| [1953-finding-mk-average](https://github.com/mhk97/dsa/tree/master/1953-finding-mk-average) |
 | [2164-two-best-non-overlapping-events](https://github.com/mhk97/dsa/tree/master/2164-two-best-non-overlapping-events) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/mhk97/dsa/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3647-zero-array-transformation-iii](https://github.com/mhk97/dsa/tree/master/3647-zero-array-transformation-iii) |
@@ -750,6 +753,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/mhk97/dsa/tree/master/0362-design-hit-counter) |
 | [0954-maximum-sum-circular-subarray](https://github.com/mhk97/dsa/tree/master/0954-maximum-sum-circular-subarray) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/mhk97/dsa/tree/master/0987-reveal-cards-in-increasing-order) |
+| [1953-finding-mk-average](https://github.com/mhk97/dsa/tree/master/1953-finding-mk-average) |
 ## Geometry
 |  |
 | ------- |
@@ -788,4 +792,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/mhk97/dsa/tree/master/1325-path-with-maximum-probability) |
+## Ordered Set
+|  |
+| ------- |
+| [1953-finding-mk-average](https://github.com/mhk97/dsa/tree/master/1953-finding-mk-average) |
 <!---LeetCode Topics End-->
