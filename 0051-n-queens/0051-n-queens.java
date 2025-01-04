@@ -1,9 +1,14 @@
 class Solution {
-    List<List<String>> res = new ArrayList();
     int n;
+    int[] row, ld, ud;
+
+    List<List<String>> res = new ArrayList();
 
     public List<List<String>> solveNQueens(int n) {
         this.n = n;
+        row = new int[n];
+        ld = new int[2 * n - 1];
+        ud = new int[2 * n - 1];
 
         List<StringBuilder> temp = new ArrayList();
         String t = ".".repeat(n);
@@ -25,51 +30,28 @@ class Solution {
         res.add(pep);
     }
 
-    public void solve(List<StringBuilder> temp, int c) {
+    public void solve(List<StringBuilder> list, int c) {
         if (c >= n) {
-            addRes(temp);
+            addRes(list);
             return;
         }
 
-        for (int i = 0; i < n; i++) {
-            if (safe(i, c, temp)) {
-                StringBuilder t = temp.get(i);
-                t.setCharAt(c, 'Q');
-                solve(temp, c + 1);
-                t.setCharAt(c, '.');
+        for (int r = 0; r < n; r++) {
+            if (row[r] == 0 && ld[r + c] == 0 && ud[n - 1 + (c - r)] == 0) {
+                StringBuilder temp = list.get(r);
+
+                row[r] = 1;
+                ld[r + c] = 1;
+                ud[n - 1 + (c - r)] = 1;
+                temp.setCharAt(c, 'Q');
+
+                solve(list, c + 1);
+
+                row[r] = 0;
+                ld[r + c] = 0;
+                ud[n - 1 + (c - r)] = 0;
+                temp.setCharAt(c, '.');
             }
         }
-    }
-
-    public boolean safe(int r, int c, List<StringBuilder> temp) {
-        int tempR = r, tempC = c;
-
-        while (r >= 0 && c >= 0) {
-            StringBuilder t = temp.get(r);
-            if (t.charAt(c) == 'Q') return false;
-            r--;
-            c--;
-        }
-
-        r = tempR;
-        c = tempC;
-
-        while (c >= 0) {
-            StringBuilder t = temp.get(r);
-            if (t.charAt(c) == 'Q') return false;
-            c--;
-        }
-
-        r = tempR;
-        c = tempC;
-
-        while (r < n && c >= 0) {
-            StringBuilder t = temp.get(r);
-            if (t.charAt(c) == 'Q') return false;
-            r++;
-            c--;
-        }
-
-        return true;
     }
 }
