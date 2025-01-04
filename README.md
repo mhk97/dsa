@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/mhk97/dsa/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/mhk97/dsa/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/mhk97/dsa/tree/master/0079-word-search) |
+| [0084-largest-rectangle-in-histogram](https://github.com/mhk97/dsa/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/mhk97/dsa/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/mhk97/dsa/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/mhk97/dsa/tree/master/0118-pascals-triangle) |
@@ -328,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/mhk97/dsa/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/mhk97/dsa/tree/master/0071-simplify-path) |
+| [0084-largest-rectangle-in-histogram](https://github.com/mhk97/dsa/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/mhk97/dsa/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mhk97/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/mhk97/dsa/tree/master/0155-min-stack) |
@@ -720,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/mhk97/dsa/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/mhk97/dsa/tree/master/0084-largest-rectangle-in-histogram) |
 | [0739-daily-temperatures](https://github.com/mhk97/dsa/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/mhk97/dsa/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
