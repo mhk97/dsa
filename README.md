@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/mhk97/dsa/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/mhk97/dsa/tree/master/0486-predict-the-winner) |
+| [0912-random-pick-with-weight](https://github.com/mhk97/dsa/tree/master/0912-random-pick-with-weight) |
 | [0976-minimum-area-rectangle](https://github.com/mhk97/dsa/tree/master/0976-minimum-area-rectangle) |
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/mhk97/dsa/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/mhk97/dsa/tree/master/0890-lemonade-change) |
 | [0898-transpose-matrix](https://github.com/mhk97/dsa/tree/master/0898-transpose-matrix) |
 | [0907-koko-eating-bananas](https://github.com/mhk97/dsa/tree/master/0907-koko-eating-bananas) |
+| [0912-random-pick-with-weight](https://github.com/mhk97/dsa/tree/master/0912-random-pick-with-weight) |
 | [0940-fruit-into-baskets](https://github.com/mhk97/dsa/tree/master/0940-fruit-into-baskets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/mhk97/dsa/tree/master/0954-maximum-sum-circular-subarray) |
 | [0976-minimum-area-rectangle](https://github.com/mhk97/dsa/tree/master/0976-minimum-area-rectangle) |
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/mhk97/dsa/tree/master/0410-split-array-largest-sum) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/mhk97/dsa/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/mhk97/dsa/tree/master/0907-koko-eating-bananas) |
+| [0912-random-pick-with-weight](https://github.com/mhk97/dsa/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
 | [1646-kth-missing-positive-number](https://github.com/mhk97/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
@@ -720,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/mhk97/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0410-split-array-largest-sum](https://github.com/mhk97/dsa/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/mhk97/dsa/tree/master/0560-subarray-sum-equals-k) |
+| [0912-random-pick-with-weight](https://github.com/mhk97/dsa/tree/master/0912-random-pick-with-weight) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/mhk97/dsa/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3034-points-that-intersect-with-cars](https://github.com/mhk97/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/mhk97/dsa/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -739,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
+| [0912-random-pick-with-weight](https://github.com/mhk97/dsa/tree/master/0912-random-pick-with-weight) |
 ## Queue
 |  |
 | ------- |
