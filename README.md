@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/mhk97/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/mhk97/dsa/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/mhk97/dsa/tree/master/1039-find-the-town-judge) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/mhk97/dsa/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/mhk97/dsa/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1325-path-with-maximum-probability](https://github.com/mhk97/dsa/tree/master/1325-path-with-maximum-probability) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/mhk97/dsa/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -543,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/mhk97/dsa/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/mhk97/dsa/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/mhk97/dsa/tree/master/1023-time-based-key-value-store) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/mhk97/dsa/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1646-kth-missing-positive-number](https://github.com/mhk97/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/mhk97/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/mhk97/dsa/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
