@@ -1,30 +1,25 @@
 class Node {
-    Node links[] = new Node[26];
-
-    boolean flag = false;
-
-    public boolean isEnd() {
-        return flag;
-    }
+    private Node links[] = new Node[26];
+    private boolean isEnd = false;
 
     public void setEnd() {
-        flag = true;
+        isEnd = true;
     }
 
-    public boolean containsKey(char ch) {
-        return links[ch - 'a'] != null;
+    public boolean getEnd() {
+        return isEnd;
     }
 
-    public Node get(char ch) {
-        return links[ch - 'a'];
+    public boolean containsKey(char c) {
+        return links[c - 'a'] != null;
     }
 
-    public Node getByIndex(int i) {
-        return links[i];
+    public void insert(char c, Node node) {
+        links[c - 'a'] = node;
     }
 
-    public void put(char ch, Node node) {
-        links[ch - 'a'] = node;
+    public Node next(char c) {
+        return links[c - 'a'];
     }
 }
 
@@ -36,39 +31,44 @@ class WordDictionary {
     }
 
     public void addWord(String word) {
-        Node curr = root;
-        for (char ch : word.toCharArray()) {
-            if (curr.containsKey(ch) == false) {
-                curr.put(ch, new Node());
+        Node temp = root;
+        for (char c : word.toCharArray()) {
+            if (!temp.containsKey(c)) {
+                Node newNode = new Node();
+                temp.insert(c, newNode);
             }
-            curr = curr.get(ch);
+            temp = temp.next(c);
         }
 
-        curr.setEnd();
+        temp.setEnd();
     }
 
     public boolean search(String word) {
-        return searchUtil(word, root);
+        Node temp = root;
+
+        return search(temp, word);
     }
 
-    public boolean searchUtil(String word, Node node) {
+    public boolean search(Node temp, String word) {
         for (int i = 0; i < word.length(); i++) {
-            char ch = word.charAt(i);
-            if (ch == '.') {
-                for (int j = 0; j < 26; j++) {
-                    if (node.getByIndex(j) != null && searchUtil(word.substring(i+1, word.length()), node.getByIndex(j)) == true) return true;
+            char curr = word.charAt(i);
+
+            if (curr == '.') {
+                for (char j = 'a'; j <= 'z'; j++) {
+                    if (temp.containsKey(j) && search(temp.next(j), word.substring(i + 1, word.length())) == true) return true;
                 }
+
                 return false;
             }
 
-            if (!node.containsKey(ch)) {
+            if (!temp.containsKey(curr)) {
                 return false;
             }
 
-            node = node.get(ch);
+            temp = temp.next(curr);
         }
 
-        return node.isEnd();
+        return temp.getEnd();
     }
 }
 /**
