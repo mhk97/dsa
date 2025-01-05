@@ -1,27 +1,25 @@
 class Solution {
 
-    public int maxWidthRamp(int[] nums) {
+    public static int maxWidthRamp(int[] nums) {
         int n = nums.length;
+        int nge[] = new int[n];
 
-        int prefix[] = new int[n];
-
-        prefix[n - 1] = nums[n - 1];
+        nge[n - 1] = nums[n - 1];
 
         for (int i = n - 2; i >= 0; i--) {
-            prefix[i] = Math.max(prefix[i + 1], nums[i]);
+            nge[i] = Math.max(nge[i + 1], nums[i]);
         }
 
-        System.out.println(Arrays.toString(prefix));
+        // System.out.println(Arrays.toString(nge));
 
-        int i = 0, j = 0, res = 0;
+        int res = 0, j = 0, i = 0;
 
         while (j < n) {
-            while (i < j && nums[i] > prefix[j]) {
-                i++;
-            }
+            while (j < n && nge[j] >= nums[i]) j++;
 
-            res = Math.max(res, j - i);
-            j++;
+            res = Math.max(res, j - i - 1);
+
+            i++;
         }
 
         return res;
