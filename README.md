@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/mhk97/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/mhk97/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/mhk97/dsa/tree/master/0202-happy-number) |
+| [0224-basic-calculator](https://github.com/mhk97/dsa/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/mhk97/dsa/tree/master/0231-power-of-two) |
 | [0371-sum-of-two-integers](https://github.com/mhk97/dsa/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mhk97/dsa/tree/master/0380-insert-delete-getrandom-o1) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/mhk97/dsa/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/mhk97/dsa/tree/master/0205-isomorphic-strings) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/mhk97/dsa/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0224-basic-calculator](https://github.com/mhk97/dsa/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/mhk97/dsa/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/mhk97/dsa/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/mhk97/dsa/tree/master/0383-ransom-note) |
@@ -338,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/mhk97/dsa/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/mhk97/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/mhk97/dsa/tree/master/0155-min-stack) |
+| [0224-basic-calculator](https://github.com/mhk97/dsa/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/mhk97/dsa/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
 | [0678-valid-parenthesis-string](https://github.com/mhk97/dsa/tree/master/0678-valid-parenthesis-string) |
@@ -510,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/mhk97/dsa/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/mhk97/dsa/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/mhk97/dsa/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/mhk97/dsa/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/mhk97/dsa/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/mhk97/dsa/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/mhk97/dsa/tree/master/0394-decode-string) |
