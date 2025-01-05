@@ -2,32 +2,36 @@ class Solution {
 
     public String reorganizeString(String s) {
         int[] arr = new int[26];
+
         for (char c : s.toCharArray()) {
             arr[c - 'a']++;
         }
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(b[0], a[0]));
+        PriorityQueue<Pair<Integer, Character>> pq = new PriorityQueue<>((a, b) -> Integer.compare(b.getKey(), a.getKey()));
 
-        for(int i=0; i< 26; i++){
-            if(arr[i] > 0) pq.offer(new int[]{arr[i], (i+'a')});
+        for (int i = 0; i < 26; i++) {
+            if (arr[i] > 0) {
+                pq.add(new Pair(arr[i], (char) ('a' + i)));
+            }
         }
 
         StringBuilder sb = new StringBuilder();
 
-        while(!pq.isEmpty()){
-            int[] first = pq.poll();
-            if(sb.length() == 0 || sb.charAt(sb.length()-1) !=  (char) first[1]){
-                sb.append((char)first[1]);
-                first[0]--;
-                if(first[0] > 0) pq.offer(first);
-            }else{
-                if(pq.isEmpty()) return "";
-                int[] sec = pq.poll();
-                sb.append((char)sec[1]);
-                sec[0]--;
-                if(sec[0] > 0) pq.offer(sec);
+        while (!pq.isEmpty()) {
+            Pair<Integer, Character> p = pq.poll();
+            if (sb.length() == 0 || sb.charAt(sb.length() - 1) != p.getValue()) {
+                sb.append(p.getValue());
+                int val = p.getKey() - 1;
+                if (val > 0) pq.add(new Pair(val, p.getValue()));
+            } else {
+                if (pq.isEmpty()) return "";
 
-                pq.offer(first);
+                Pair<Integer, Character> p2 = pq.poll();
+                sb.append(p2.getValue());
+                int val = p2.getKey() - 1;
+                if (val > 0) pq.add(new Pair(val, p2.getValue()));
+
+                pq.add(p);
             }
         }
 
