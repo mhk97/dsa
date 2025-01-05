@@ -16,13 +16,11 @@
 class Solution {
 
     public TreeNode deleteNode(TreeNode root, int key) {
-        if (root == null) return null;
+        if (root == null) return root;
 
-        if (root.val == key) {
-            return helper(root);
-        }
+        if (root.val == key) return helper(root);
 
-        TreeNode dummy = root;
+        TreeNode head = root;
 
         while (root != null) {
             if (root.val > key) {
@@ -40,22 +38,22 @@ class Solution {
             }
         }
 
-        return dummy;
+        return head;
     }
 
-    public TreeNode helper(TreeNode node) {
-        if (node.left == null) return node.right;
-        if (node.right == null) return node.left;
+    public TreeNode helper(TreeNode root) {
+        if (root.left == null) return root.right;
+        if (root.right == null) return root.left;
 
-        TreeNode right = node.right;
-        TreeNode rightMostOnLeft = find(node.left);
-        rightMostOnLeft.right = right;
+        TreeNode rightMostOfLeft = findRightMostOfLeft(root.left);
+        rightMostOfLeft.right = root.right;
+        root.right = null;
 
-        return node.left;
+        return root.left;
     }
 
-    public TreeNode find(TreeNode node) {
-        if (node.right == null) return node;
-        return find(node.right);
+    public TreeNode findRightMostOfLeft(TreeNode root) {
+        while (root.right != null) root = root.right;
+        return root;
     }
 }
