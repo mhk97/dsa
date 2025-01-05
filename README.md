@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/mhk97/dsa/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/mhk97/dsa/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/mhk97/dsa/tree/master/0567-permutation-in-string) |
+| [1002-maximum-width-ramp](https://github.com/mhk97/dsa/tree/master/1002-maximum-width-ramp) |
 | [1894-merge-strings-alternately](https://github.com/mhk97/dsa/tree/master/1894-merge-strings-alternately) |
 | [2232-adding-spaces-to-a-string](https://github.com/mhk97/dsa/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/mhk97/dsa/tree/master/2414-move-pieces-to-obtain-a-string) |
